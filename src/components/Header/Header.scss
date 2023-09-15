@@ -1,0 +1,19 @@
+header {
+    @apply p-6 flex w-full justify-between items-center text-white;
+
+    background: #140012;
+
+    .header-main {
+        @apply flex items-center;
+
+        .search {
+            @apply ml-10 px-4 py-2 rounded-full;
+
+            background-color: rgb(35, 35, 35);
+        }
+    }
+
+    .header-actions {
+        @apply flex;
+    }
+}
