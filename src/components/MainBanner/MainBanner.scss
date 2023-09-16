@@ -1,0 +1,55 @@
+.main-banner {
+  @apply relative mt-16 flex items-center overflow-hidden;
+  aspect-ratio: 3.33/1;
+  background: linear-gradient(#140012, #000000);
+
+  h1 {
+    @apply absolute text-white flex flex-col;
+    font-size: 500%;
+    line-height: 110%;
+    margin-left: 7.5%;
+
+    span {
+      &:first-of-type {
+        animation: move-right 1s forwards;
+      }
+
+      &:last-of-type {
+        animation: move-left 1s forwards;
+      }
+    }
+
+    b {
+      color: #ff459a;
+    }
+  }
+
+  .back {
+    @apply absolute right-0;
+    height: 110%;
+  }
+
+  .front {
+    @apply absolute right-0;
+    height: 110%;
+    margin-right: 12.5%;
+  }
+
+  @keyframes move-right {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(2.5%);
+    }
+  }
+
+  @keyframes move-left {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-2.5%);
+    }
+  }
+}
