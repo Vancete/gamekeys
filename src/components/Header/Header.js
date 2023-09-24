@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import './Header.scss'
 
-import { SearchIcon } from './icons/search-icon'
-import { HeartIcon } from './icons/heart-icon'
+import { SearchIcon } from '../Icons/search-icon'
+import { HeartIcon } from '../Icons/heart-icon'
 
 export const Header = () => {
     return (

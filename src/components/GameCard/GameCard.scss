@@ -1,3 +1,29 @@
 .game-card {
-    @apply bg-blue-500;
+    @apply flex flex-col rounded-3xl overflow-hidden cursor-pointer;
+
+    &:hover {
+        .image {
+            .image-url {
+                transform: scale(1.25);
+            }
+        }
+    }
+
+    .image {
+        @apply flex-1 bg-gray-500 overflow-hidden;
+
+        .image-url {
+            @apply w-full h-full bg-cover bg-center;
+
+            transition: transform 0.25s;
+        }
+    }
+
+    .info {
+        @apply bg-black px-3 py-4;
+
+        label {
+            @apply font-semibold text-lg;
+        }
+    }
 }

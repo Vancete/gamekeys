@@ -20,3 +20,8 @@ body {
     background-color: #232323;
     color: #ffffff;
 }
+
+main {
+    @apply w-full m-auto mt-9;
+    max-width: 1400px;
+}

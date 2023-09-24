@@ -1,26 +1,30 @@
 .main-banner {
-    @apply relative flex items-center overflow-hidden;
+    @apply relative flex justify-center items-center overflow-hidden;
     aspect-ratio: 3.33/1;
     background: linear-gradient(#140012, #000000);
 
-    h1 {
-        @apply absolute text-white flex flex-col;
-        font-size: 500%;
-        line-height: 110%;
-        margin-left: 7.5%;
+    .content {
+        @apply absolute flex items-center h-full w-full;
+        max-width: 1400px;
 
-        span {
-            &:first-of-type {
-                animation: move-right 1s forwards;
+        h1 {
+            @apply absolute text-white flex flex-col;
+            font-size: 500%;
+            line-height: 110%;
+
+            span {
+                &:first-of-type {
+                    animation: move-right 1s forwards;
+                }
+
+                &:last-of-type {
+                    animation: move-left 1s forwards;
+                }
             }
 
-            &:last-of-type {
-                animation: move-left 1s forwards;
+            b {
+                color: #ff459a;
             }
-        }
-
-        b {
-            color: #ff459a;
         }
     }
 

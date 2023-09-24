@@ -1,0 +1,25 @@
+.main-section {
+    @apply flex flex-col w-full;
+
+    .title {
+        @apply w-max flex items-center p-4 pr-5 mb-5 bg-white rounded-full font-semibold;
+        color: #232323;
+
+        svg {
+            @apply w-5 h-5 mr-2;
+
+            path {
+                fill: #232323;
+            }
+        }
+    }
+
+    .content {
+        @apply flex justify-between;
+
+        .game-card {
+            width: calc(20% - 16px);
+            height: 200px;
+        }
+    }
+}
