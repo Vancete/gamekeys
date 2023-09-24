@@ -1,0 +1,182 @@
+{
+    "data": {
+        "@context": "http://schema.org",
+        "@type": "VideoGame",
+        "applicationCategory": "Game",
+        "url": "/game/15003/sea-of-stars",
+        "dateCreated": "2023-05-30T16:13:54.978Z",
+        "name": "Sea of Stars",
+        "gamePlatform": [
+            "PC",
+            "Nintendo Switch",
+            "Xbox Series X/S",
+            "PlayStation 5",
+            "Xbox One",
+            "PlayStation 4"
+        ],
+        "description": "Promising the Sabotage touch in every system, Sea of Stars aims to modernize the classic RPG in terms of turn-based combat, storytelling, exploration and interactions with the environment, while still offering a hearty slice of nostalgia and good old, simple fun.  \n\nPressing the action button in sync with the animations increases damage output while reducing incoming damage. Along with timed hits, combat features multi-character combo attacks, boosting, and a strategic \"locks\" system offering options to play with different damage types in order to hinder enemies while they are channeling powerful attacks or spells, all in an immersive take on the genre; no random encounters, no transitions to separate battlefields, and no grinding.\n\nSwim, climb, vault, jump off or hoist up ledges as you traverse seamlessly through the world with a navigation system based on platformer expertise that breaks free from the classic bound-to-the-grid tileset movement.\n\nOur custom-made render pipeline allows the creation of a breathtaking world coming to life by pushing the limits of 2D pixel-art games.\n\nDozens of original characters and story arcs will take you on a captivating journey. Sometimes epic, sometimes silly, and other times emotional, Sea of Stars does its RPG duty of exploring classic themes of adventure and friendship, while also being chock-full of the unexpected twists and events you’d expect from a Sabotage production.\n\nThere are many ways to hang out in the world of Sea of Stars if you feel the need for a change of pace in your adventures. Sailing, cooking, fishing, stopping by a tavern to listen to a song or play the infamous tabletop game known as \"Wheels\".....every system has been designed to deliver an experience that pays respect to retro classics, while rethinking in some areas to offer a smooth and modernized experience.",
+        "operatingSystem": [
+            "PC",
+            "Nintendo Switch",
+            "Xbox Series X/S",
+            "PlayStation 5",
+            "Xbox One",
+            "PlayStation 4"
+        ],
+        "genre": [
+            "Adventure",
+            "RPG",
+            "Turn-Based Strategy"
+        ],
+        "datePublished": "2023-08-29T00:00:00.000Z",
+        "image": "https://img.opencritic.com/game/15003/o/gqtdjtIw.jpg",
+        "dateModified": "2023-09-20T00:00:00.000Z",
+        "screenshot": [
+            {
+                "@type": "ImageObject",
+                "caption": "Sea of Stars Box Art",
+                "contentUrl": "https://img.opencritic.com/game/15003/o/gqtdjtIw.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Sea of Stars Square"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Sea of Stars Masthead",
+                "contentUrl": "https://img.opencritic.com/game/15003/cfvJYxOD.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Sea of Stars Screenshot 1",
+                "thumbnailUrl": "https://img.opencritic.com/game/15003/CDqk4doO.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15003/o/Gc4lS5Bo.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Sea of Stars Screenshot 2",
+                "thumbnailUrl": "https://img.opencritic.com/game/15003/ABlcJORd.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15003/o/7QqWEC2b.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Sea of Stars Screenshot 3",
+                "thumbnailUrl": "https://img.opencritic.com/game/15003/HD40TXhB.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15003/o/tgHdu7MB.jpg"
+            }
+        ],
+        "trailer": [
+            {
+                "@type": "VideoObject",
+                "name": "Sea of Stars | Release Date + Switch Demo Announcement Trailer",
+                "url": "https://youtube.com/watch?v=uRwB7RH1lVE",
+                "uploadDate": "2023-02-08T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/uRwB7RH1lVE/hqdefault.jpg",
+                "description": "Sea of Stars launches on August 29th! Demo available later today on Switch: https://seaofstarsgame.co/eshop --- Sea of Stars is a ...",
+                "embedUrl": "https://www.youtube.com/embed/uRwB7RH1lVE"
+            },
+            {
+                "@type": "VideoObject",
+                "name": "Sea of Stars | In-game Cinematics Teaser",
+                "url": "https://youtube.com/watch?v=AEkluZ9rwTs",
+                "uploadDate": "2021-03-27T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/AEkluZ9rwTs/hqdefault.jpg",
+                "description": "Steam wishlist: https://seaofstarsgame.co/wishlist.",
+                "embedUrl": "https://www.youtube.com/embed/AEkluZ9rwTs"
+            },
+            {
+                "@type": "VideoObject",
+                "name": "Sea of Stars - Summer Game Fest Trailer",
+                "url": "https://youtube.com/watch?v=GZVLA08lcR0",
+                "uploadDate": "2020-06-22T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/GZVLA08lcR0/hqdefault.jpg",
+                "description": "Wishlist on Steam : https://store.steampowered.com/app/1244090/Sea_of_Stars/ Follow Sea of Stars on Twitter ...",
+                "embedUrl": "https://www.youtube.com/embed/GZVLA08lcR0"
+            }
+        ],
+        "author": [
+            {
+                "@type": "Organization",
+                "name": "Sabotage Studio"
+            }
+        ],
+        "publisher": [
+            {
+                "@type": "Organization",
+                "name": "Sabotage Studio "
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 89,
+            "bestRating": 100,
+            "worstRating": 0,
+            "reviewCount": 115,
+            "ratingCount": 115,
+            "name": "OpenCritic Rating",
+            "description": "The OpenCritic Rating system helps gamers know the level of quality to expect when playing a game. Using our \"Mighty Man,\" gamers can quickly see if a game is in the elite tier (Mighty), high quality (Strong), decent (Fair), or low quality (Weak)."
+        }
+    },
+    "offers": [
+        {
+            "price": "€20.59",
+            "url": "https://www.gamivo.com/product/sea-of-stars-pc-steam-global-en-de-fr-ja-ko-pt-ru-zh-es-zh-standard?glv=5piq6dd5",
+            "name": "Gamivo"
+        },
+        {
+            "price": "€20.71",
+            "url": "https://www.hrkgame.com/en/games/product/sea-of-stars?data1=d2995f8edefbc7d2ec51f41e3bb7eeebd007b4d1&data2=",
+            "name": "HRK Game"
+        },
+        {
+            "price": "€20.88",
+            "url": "https://www.eneba.com/steam-sea-of-stars-pc-steam-key-global?currency=EUR",
+            "name": "Eneba"
+        },
+        {
+            "price": "€21.09",
+            "url": "https://kinguin.net/en/category/181174/sea-of-stars-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=e6737692c755accdef8a1137a6214cea82e14609&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": "€21.32",
+            "url": "https://kinguin.net/en/category/181176/sea-of-stars-eu-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=0289d7b3ab364dca47246b3dc9ad3dda82a34dfe&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": "€21.34",
+            "url": "https://k4g.com/product/sea-of-stars-steam-global-cd-key-cd-key-D391F227?data1=15bfed81d26a7fbc72a1dd9f6ea49c69a7e2397a&data2=",
+            "name": "K4G"
+        },
+        {
+            "price": "€22.34",
+            "url": "https://www.g2a.com/de-de/sea-of-stars-pc-steam-key-global-i10000500428001?___currency=EUR&aid=13519529&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": "€24.20",
+            "url": "https://www.hrkgame.com/en/games/product/sea-of-stars-europe?data1=178a040c5e1d02349e781a8576cdfe69f0bf8afd&data2=",
+            "name": "HRK Game"
+        },
+        {
+            "price": "€27.18",
+            "url": "https://www.g2a.com/de-de/sea-of-stars-pc-steam-key-europe-i10000500428002?___currency=EUR&aid=13512752&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": "€38.36",
+            "url": "https://kinguin.net/en/category/181469/sea-of-stars-steam-altergift?nosalesbooster=1&currency=EUR&noff=1&data1=cf15c51d10f2a902be9f782fa56cc9d766ae2a69&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": "€38.37",
+            "url": "https://www.gamivo.com/product/sea-of-stars-pc-steam-gift-global-en-de-fr-ja-ko-pt-ru-zh-es-zh-standard?glv=5piq6dd5",
+            "name": "Gamivo"
+        },
+        {
+            "price": "€39.72",
+            "url": "https://k4g.com/product/sea-of-stars-steam-global-altergift-gift-74AC3D5B?data1=1f708249ccc20f7e384650529a4c1604ab0fca5c&data2=",
+            "name": "K4G"
+        }
+    ]
+}

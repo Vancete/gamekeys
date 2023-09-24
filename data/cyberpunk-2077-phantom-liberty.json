@@ -1,0 +1,127 @@
+{
+    "data": {
+        "@context": "http://schema.org",
+        "@type": "VideoGame",
+        "applicationCategory": "Game",
+        "url": "/game/15196/cyberpunk-2077-phantom-liberty",
+        "dateCreated": "2023-07-06T16:12:03.746Z",
+        "name": "Cyberpunk 2077: Phantom Liberty",
+        "gamePlatform": [
+            "PC",
+            "PlayStation 5",
+            "Xbox Series X/S"
+        ],
+        "description": "Phantom Liberty, a new spy-thriller adventure to Cyberpunk 2077, arrives on September 26th (CEST) for PlayStation 5 — pre-order now and receive the following goodies when the expansion launches:\n- 3 premium Phantom Liberty-themed avatars for your PlayStation Network profile\n- In-game access to the Quadra Sport R-7 \"Vigilante\"\n\n\nABOUT THE GAME\n\nPhantom Liberty is a new spy-thriller adventure for Cyberpunk 2077. When the orbital shuttle of the President of the New United States of America is shot down over the deadliest district of Night City, there’s only one person who can save her — you. Become V, a cyberpunk for hire, and dive deep into a tangled web of espionage and political intrigue, unraveling a story that connects the highest echelons of power with the brutal world of black-market mercenaries.\n\nInfiltrate Dogtown, a city-within-a-city run by a trigger-happy militia and ruled by a leader with an iron fist. With the help of NUSA sleeper agent Solomon Reed (Idris Elba) and the support of Johnny Silverhand (Keanu Reeves), unravel a web of shattered loyalties and use your every skill to survive in a fractured world of desperate hustlers, shadowy netrunners, and ruthless mercenaries. Built with the power of next-gen hardware in mind, Phantom Liberty offers brand-new gameplay mechanics, nail-biting courier jobs, gigs, and missions — and a thrilling main quest where freedom and loyalty always come at a price.",
+        "operatingSystem": [
+            "PC",
+            "PlayStation 5",
+            "Xbox Series X/S"
+        ],
+        "genre": [
+            "Action",
+            "Adventure",
+            "RPG",
+            "First-Person Shooter"
+        ],
+        "datePublished": "2023-09-26T00:00:00.000Z",
+        "image": "https://img.opencritic.com/game/15196/o/92wxo2Pv.jpg",
+        "dateModified": "2023-09-24T00:00:00.000Z",
+        "screenshot": [
+            {
+                "@type": "ImageObject",
+                "caption": "Cyberpunk 2077: Phantom Liberty Box Art",
+                "contentUrl": "https://img.opencritic.com/game/15196/o/92wxo2Pv.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Cyberpunk 2077: Phantom Liberty Square"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Cyberpunk 2077: Phantom Liberty Masthead",
+                "contentUrl": "https://img.opencritic.com/game/15196/fkFeB1Fg.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Cyberpunk 2077: Phantom Liberty Screenshot 1",
+                "thumbnailUrl": "https://img.opencritic.com/game/15196/sSNytySC.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15196/o/9i8poi78.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Cyberpunk 2077: Phantom Liberty Screenshot 2",
+                "thumbnailUrl": "https://img.opencritic.com/game/15196/3pe9m0UW.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15196/o/sPYooOqq.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Cyberpunk 2077: Phantom Liberty Screenshot 3",
+                "thumbnailUrl": "https://img.opencritic.com/game/15196/qm5Eu97j.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15196/o/qSGiryXZ.jpg"
+            }
+        ],
+        "trailer": [
+            {
+                "@type": "VideoObject",
+                "name": "Cyberpunk 2077: Phantom Liberty — Official Cinematic Trailer",
+                "url": "https://youtube.com/watch?v=sJbexcm4Trk",
+                "uploadDate": "2023-09-14T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/sJbexcm4Trk/hqdefault.jpg",
+                "description": "I wouldn't be alive if it wasn't for you. Cyberpunk 2077: Phantom Liberty arrives on September 26th on Xbox Series X|S, ...",
+                "embedUrl": "https://www.youtube.com/embed/sJbexcm4Trk"
+            },
+            {
+                "@type": "VideoObject",
+                "name": "Cyberpunk 2077: Phantom Liberty — New Ways to Play",
+                "url": "https://youtube.com/watch?v=zBrkG3aeWCc",
+                "uploadDate": "2023-08-22T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/zBrkG3aeWCc/hqdefault.jpg",
+                "description": "Take a closer look at the new features coming to Cyberpunk 2077 together with the Phantom Liberty expansion! Some of these ...",
+                "embedUrl": "https://www.youtube.com/embed/zBrkG3aeWCc"
+            },
+            {
+                "@type": "VideoObject",
+                "name": "Cyberpunk 2077: Phantom Liberty — Official Trailer",
+                "url": "https://youtube.com/watch?v=reABCMNGM3w",
+                "uploadDate": "2023-06-11T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/reABCMNGM3w/hqdefault.jpg",
+                "description": "Freedom always comes at a price… Cyberpunk 2077: Phantom Liberty arrives on September 26th on Xbox Series X|S, ...",
+                "embedUrl": "https://www.youtube.com/embed/reABCMNGM3w"
+            }
+        ],
+        "author": [
+            {
+                "@type": "Organization",
+                "name": "CD PROJEKT RED"
+            }
+        ],
+        "publisher": [
+            {
+                "@type": "Organization",
+                "name": "CD PROJEKT SA"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 88,
+            "bestRating": 100,
+            "worstRating": 0,
+            "reviewCount": 75,
+            "ratingCount": 75,
+            "name": "OpenCritic Rating",
+            "description": "The OpenCritic Rating system helps gamers know the level of quality to expect when playing a game. Using our \"Mighty Man,\" gamers can quickly see if a game is in the elite tier (Mighty), high quality (Strong), decent (Fair), or low quality (Weak)."
+        }
+    },
+    "offers": [
+        {
+            "price": "€28.49",
+            "url": "https://k4g.com/product/cyberpunk-2077-phantom-liberty-steam-europe-altergift-gift-DCE8A179?data1=352c585621f9f52d9c0c51c5105b5f4b7f74afad&data2=",
+            "name": "K4G"
+        },
+        {
+            "price": "€31.96",
+            "url": "https://k4g.com/product/cyberpunk-2077-phantom-liberty-steam-global-altergift-gift-BB6A3894?data1=c7ab556335608dcd2ede5a813eee11f928d74f57&data2=",
+            "name": "K4G"
+        }
+    ]
+}

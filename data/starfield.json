@@ -1,1 +1,224 @@
-{"@context":"http://schema.org","@type":"VideoGame","applicationCategory":"Game","url":"/game/14907/starfield","dateCreated":"2023-05-09T18:24:44.065Z","name":"Starfield","gamePlatform":["PC","Xbox Series X/S"],"description":"Starfield is the first new universe in 25 years from Bethesda Game Studios, the award-winning creators of The Elder Scrolls V: Skyrim and Fallout 4. In this next generation role-playing game set amongst the stars, create any character you want and explore with unparalleled freedom as you embark on an epic journey to answer humanity’s greatest mystery.\n\nThe year is 2330. Humanity has ventured beyond our solar system, settling new planets, and living as a spacefaring people. From humble beginnings as a space miner, you will join Constellation – the last group of space explorers seeking rare artifacts throughout the galaxy – and navigate the vast expanse of the Settled Systems in Bethesda Game Studios’ biggest and most ambitious game.","operatingSystem":["PC","Xbox Series X/S"],"genre":[],"datePublished":"2023-09-06T00:00:00.000Z","image":"https://img.opencritic.com/game/14907/o/cczxz8Dx.jpg","dateModified":"2023-09-15T00:00:00.000Z","screenshot":[{"@type":"ImageObject","caption":"Starfield Box Art","contentUrl":"https://img.opencritic.com/game/14907/o/cczxz8Dx.jpg"},{"@type":"ImageObject","caption":"Starfield Square"},{"@type":"ImageObject","caption":"Starfield Logo","contentUrl":"https://img.opencritic.com/game/14907/o/YYkZN3NO.jpg"},{"@type":"ImageObject","caption":"Starfield Masthead","contentUrl":"https://img.opencritic.com/game/14907/YGJBcWFc.jpg"},{"@type":"ImageObject","caption":"Starfield Screenshot 1","thumbnailUrl":"https://img.opencritic.com/game/14907/C2pna5AF.jpg","contentUrl":"https://img.opencritic.com/game/14907/o/gEhfz6nh.jpg"},{"@type":"ImageObject","caption":"Starfield Screenshot 2","thumbnailUrl":"https://img.opencritic.com/game/14907/cqVbGmYK.jpg","contentUrl":"https://img.opencritic.com/game/14907/o/jxgnbAnr.jpg"},{"@type":"ImageObject","caption":"Starfield Screenshot 3","thumbnailUrl":"https://img.opencritic.com/game/14907/EXYKzk3p.jpg","contentUrl":"https://img.opencritic.com/game/14907/o/E2wya60n.jpg"}],"trailer":[{"@type":"VideoObject","name":"Starfield – Official Live Action Trailer","url":"https://youtube.com/watch?v=Ek3I6_9c58E","uploadDate":"2023-08-22T00:00:00.000Z","thumbnailUrl":"https://img.youtube.com/vi/Ek3I6_9c58E/hqdefault.jpg","description":"Accompanied by a stunning orchestral version of Elton John's “Rocket Man,” the live action trailer follows our hero on a ...","embedUrl":"https://www.youtube.com/embed/Ek3I6_9c58E"},{"@type":"VideoObject","name":"Starfield Official Gameplay Trailer","url":"https://youtube.com/watch?v=kfYEiTdsyas","uploadDate":"2023-06-11T00:00:00.000Z","thumbnailUrl":"https://img.youtube.com/vi/kfYEiTdsyas/hqdefault.jpg","description":"What awaits you among the stars? The next-generation immersive RPG from Bethesda Game Studios, Starfield, arrives on ...","embedUrl":"https://www.youtube.com/embed/kfYEiTdsyas"},{"@type":"VideoObject","name":"Starfield Direct – Gameplay Deep Dive","url":"https://youtube.com/watch?v=uMOPoAq5vIA","uploadDate":"2023-06-11T00:00:00.000Z","thumbnailUrl":"https://img.youtube.com/vi/uMOPoAq5vIA/hqdefault.jpg","description":"Join Game Director Todd Howard and the Starfield development team as they dive deep into the first new universe from Bethesda ...","embedUrl":"https://www.youtube.com/embed/uMOPoAq5vIA"}],"publisher":[{"@type":"Organization","name":"Bethesda Softworks"}],"aggregateRating":{"@type":"AggregateRating","ratingValue":86,"bestRating":100,"worstRating":0,"reviewCount":142,"ratingCount":142,"name":"OpenCritic Rating","description":"The OpenCritic Rating system helps gamers know the level of quality to expect when playing a game. Using our \"Mighty Man,\" gamers can quickly see if a game is in the elite tier (Mighty), high quality (Strong), decent (Fair), or low quality (Weak)."}}
+{
+    "data": {
+        "@context": "http://schema.org",
+        "@type": "VideoGame",
+        "applicationCategory": "Game",
+        "url": "/game/14907/starfield",
+        "dateCreated": "2023-05-09T18:24:44.065Z",
+        "name": "Starfield",
+        "gamePlatform": [
+            "PC",
+            "Xbox Series X/S"
+        ],
+        "description": "Starfield is the first new universe in 25 years from Bethesda Game Studios, the award-winning creators of The Elder Scrolls V: Skyrim and Fallout 4. In this next generation role-playing game set amongst the stars, create any character you want and explore with unparalleled freedom as you embark on an epic journey to answer humanity’s greatest mystery.\n\nThe year is 2330. Humanity has ventured beyond our solar system, settling new planets, and living as a spacefaring people. From humble beginnings as a space miner, you will join Constellation – the last group of space explorers seeking rare artifacts throughout the galaxy – and navigate the vast expanse of the Settled Systems in Bethesda Game Studios’ biggest and most ambitious game.",
+        "operatingSystem": [
+            "PC",
+            "Xbox Series X/S"
+        ],
+        "genre": [],
+        "datePublished": "2023-09-06T00:00:00.000Z",
+        "image": "https://img.opencritic.com/game/14907/o/cczxz8Dx.jpg",
+        "dateModified": "2023-09-24T00:00:00.000Z",
+        "screenshot": [
+            {
+                "@type": "ImageObject",
+                "caption": "Starfield Box Art",
+                "contentUrl": "https://img.opencritic.com/game/14907/o/cczxz8Dx.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Starfield Square"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Starfield Logo",
+                "contentUrl": "https://img.opencritic.com/game/14907/o/YYkZN3NO.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Starfield Masthead",
+                "contentUrl": "https://img.opencritic.com/game/14907/YGJBcWFc.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Starfield Screenshot 1",
+                "thumbnailUrl": "https://img.opencritic.com/game/14907/C2pna5AF.jpg",
+                "contentUrl": "https://img.opencritic.com/game/14907/o/gEhfz6nh.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Starfield Screenshot 2",
+                "thumbnailUrl": "https://img.opencritic.com/game/14907/cqVbGmYK.jpg",
+                "contentUrl": "https://img.opencritic.com/game/14907/o/jxgnbAnr.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Starfield Screenshot 3",
+                "thumbnailUrl": "https://img.opencritic.com/game/14907/EXYKzk3p.jpg",
+                "contentUrl": "https://img.opencritic.com/game/14907/o/E2wya60n.jpg"
+            }
+        ],
+        "trailer": [
+            {
+                "@type": "VideoObject",
+                "name": "Starfield – Official Live Action Trailer",
+                "url": "https://youtube.com/watch?v=Ek3I6_9c58E",
+                "uploadDate": "2023-08-22T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/Ek3I6_9c58E/hqdefault.jpg",
+                "description": "Accompanied by a stunning orchestral version of Elton John's “Rocket Man,” the live action trailer follows our hero on a ...",
+                "embedUrl": "https://www.youtube.com/embed/Ek3I6_9c58E"
+            },
+            {
+                "@type": "VideoObject",
+                "name": "Starfield Official Gameplay Trailer",
+                "url": "https://youtube.com/watch?v=kfYEiTdsyas",
+                "uploadDate": "2023-06-11T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/kfYEiTdsyas/hqdefault.jpg",
+                "description": "What awaits you among the stars? The next-generation immersive RPG from Bethesda Game Studios, Starfield, arrives on ...",
+                "embedUrl": "https://www.youtube.com/embed/kfYEiTdsyas"
+            },
+            {
+                "@type": "VideoObject",
+                "name": "Starfield Direct – Gameplay Deep Dive",
+                "url": "https://youtube.com/watch?v=uMOPoAq5vIA",
+                "uploadDate": "2023-06-11T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/uMOPoAq5vIA/hqdefault.jpg",
+                "description": "Join Game Director Todd Howard and the Starfield development team as they dive deep into the first new universe from Bethesda ...",
+                "embedUrl": "https://www.youtube.com/embed/uMOPoAq5vIA"
+            }
+        ],
+        "publisher": [
+            {
+                "@type": "Organization",
+                "name": "Bethesda Softworks"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 86,
+            "bestRating": 100,
+            "worstRating": 0,
+            "reviewCount": 158,
+            "ratingCount": 158,
+            "name": "OpenCritic Rating",
+            "description": "The OpenCritic Rating system helps gamers know the level of quality to expect when playing a game. Using our \"Mighty Man,\" gamers can quickly see if a game is in the elite tier (Mighty), high quality (Strong), decent (Fair), or low quality (Weak)."
+        }
+    },
+    "offers": [
+        {
+            "price": "€52.82",
+            "url": "https://kinguin.net/en/category/181222/starfield-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=afcd9d79f1def0bbfd9f3c1349dec8916f044286&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": "€52.84",
+            "url": "https://kinguin.net/en/category/181219/starfield-eu-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=591e39918231727f2c9f5d534a157566327fce31&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": "€54.01",
+            "url": "https://www.gamivo.com/product/starfield?glv=5piq6dd5",
+            "name": "Gamivo"
+        },
+        {
+            "price": "€54.08",
+            "url": "https://www.gamivo.com/product/starfield-pc-steam-eu-en-de-fr-it-pl-pt-ru-zh-es-standard?glv=5piq6dd5",
+            "name": "Gamivo"
+        },
+        {
+            "price": "€54.49",
+            "url": "https://www.eneba.com/steam-starfield-pc-steam-key-europe?currency=EUR",
+            "name": "Eneba"
+        },
+        {
+            "price": "€54.49",
+            "url": "https://www.eneba.com/steam-starfield-pc-steam-key-global?currency=EUR",
+            "name": "Eneba"
+        },
+        {
+            "price": "€54.63",
+            "url": "https://www.hrkgame.com/en/games/product/starfield-steam-edition?data1=2cd33833d79fb9a9934ff9e8f86c842cac06a71f&data2=",
+            "name": "HRK Game"
+        },
+        {
+            "price": "€58.03",
+            "url": "https://www.g2a.com/de-de/starfield-pc-steam-key-europe-i10000280040003?___currency=EUR&aid=13523905&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": "€58.09",
+            "url": "https://www.tkqlhce.com/click-100127123-13674779?url=https%3A%2F%2Fwww.fanatical.com%2Fen%2Fgame%2Fstarfield",
+            "name": "Fanatical"
+        },
+        {
+            "price": "€58.89",
+            "url": "https://www.hrkgame.com/en/games/product/Starfield%20EUROPE?data1=d83f192fe976029309d94da7da9cde31b7847a35&data2=",
+            "name": "HRK Game"
+        },
+        {
+            "price": "€60.81",
+            "url": "https://www.g2a.com/de-de/starfield-pc-steam-key-global-i10000280040002?___currency=EUR&aid=13516475&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": "€65.67",
+            "url": "https://k4g.com/product/starfield-steam-global-instant-cd-key-standard-edition-cd-key-A1C5E69C?data1=2c7a2187e063d0cf89b71783cdf0e6050599f282&data2=",
+            "name": "K4G"
+        },
+        {
+            "price": "€65.79",
+            "url": "https://kinguin.net/en/category/183176/starfield-day-one-edition-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=b62e3a1d426878a81a1d9b427ca6d896665ec259&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": "€65.79",
+            "url": "https://kinguin.net/en/category/185470/starfield-day-one-edition-eu-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=c9d5ce1d1f7f665d7b839deb1823146a8373289a&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": "€71.16",
+            "url": "https://k4g.com/product/starfield-steam-europe-instant-cd-key-standard-edition-cd-key-CBDF443D?data1=7453c2c94a5b7269ce7c645f2a06f74fcf536f67&data2=",
+            "name": "K4G"
+        },
+        {
+            "price": "€73.57",
+            "url": "https://www.gamivo.com/product/starfield-pc-steamgift-eu-en-de-fr-it-pl-pt-ru-zh-es-standard?glv=5piq6dd5",
+            "name": "Gamivo"
+        },
+        {
+            "price": "€76.73",
+            "url": "https://www.gamivo.com/product/starfield-pc-steam-global-en-de-fr-it-pl-pt-ru-zh-es-premium?glv=5piq6dd5",
+            "name": "Gamivo"
+        },
+        {
+            "price": "€77.39",
+            "url": "https://www.eneba.com/steam-starfield-premium-edition-pc-steam-key-global?currency=EUR",
+            "name": "Eneba"
+        },
+        {
+            "price": "€81.87",
+            "url": "https://kinguin.net/en/category/181224/starfield-premium-edition-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=90a30c401367f04406678a13c8817e477870e7ad&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": "€82.99",
+            "url": "https://www.kqzyfj.com/click-100127123-13674779?url=https%3A%2F%2Fwww.fanatical.com%2Fen%2Fgame%2Fstarfield-premium-edition",
+            "name": "Fanatical"
+        },
+        {
+            "price": "€92.82",
+            "url": "https://www.g2a.com/de-de/starfield-pre-purchase-pc-steam-key-global-i10000280040023?___currency=EUR&aid=13516515&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": "€93.78",
+            "url": "https://k4g.com/product/starfield-steam-global-instant-cd-key-premium-edition-cd-key-E3066A59?data1=80ec976826de47e2fd52a394e3a71e11aa11fc32&data2=",
+            "name": "K4G"
+        },
+        {
+            "price": "€105",
+            "url": "https://www.gamivo.com/product/starfield-pc-steamgift-eu-en-de-fr-it-pl-pt-ru-zh-es-premium?glv=5piq6dd5",
+            "name": "Gamivo"
+        }
+    ]
+}

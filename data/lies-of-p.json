@@ -1,0 +1,203 @@
+{
+    "data": {
+        "@context": "http://schema.org",
+        "@type": "VideoGame",
+        "applicationCategory": "Game",
+        "url": "/game/15437/lies-of-p",
+        "dateCreated": "2023-08-31T15:49:29.243Z",
+        "name": "Lies of P",
+        "gamePlatform": [
+            "PlayStation 5",
+            "PC",
+            "Xbox Series X/S",
+            "Xbox One",
+            "PlayStation 4"
+        ],
+        "description": "Lies of P is a thrilling soulslike that takes the story of Pinocchio, turns it on its head, and sets it against the darkly elegant backdrop of the Belle Epoque.\n\nYou are a puppet created by Geppetto who’s caught in a web of lies with unimaginable monsters and untrustworthy figures standing between you and the events that have befallen the world of Lies of P.\n\nYou are awakened by a mysterious voice that guides you through the plagued city of Krat - a once lively place that has been poisoned by madness and bloodlust. In our soulslike, you must adapt yourself and your weapons to face untold horrors, untangle the unfathomable secrets of the city’s elites and choose whether to confront predicaments with the truth or weave lies to overcome them on the journey to find yourself.\n\nConfront the people who manipulate the strings of treachery that doomed Krat.",
+        "operatingSystem": [
+            "PlayStation 5",
+            "PC",
+            "Xbox Series X/S",
+            "Xbox One",
+            "PlayStation 4"
+        ],
+        "genre": [
+            "Action",
+            "Adventure"
+        ],
+        "datePublished": "2023-09-19T00:00:00.000Z",
+        "image": "https://img.opencritic.com/game/15437/o/DeyLC1r5.jpg",
+        "dateModified": "2023-09-24T00:00:00.000Z",
+        "screenshot": [
+            {
+                "@type": "ImageObject",
+                "caption": "Lies of P Box Art",
+                "contentUrl": "https://img.opencritic.com/game/15437/o/DeyLC1r5.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Lies of P Square"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Lies of P Masthead",
+                "contentUrl": "https://img.opencritic.com/game/15437/WfcS2Ver.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Lies of P Screenshot 1",
+                "thumbnailUrl": "https://img.opencritic.com/game/15437/ROI8CtKz.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15437/o/3FJDnhRv.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Lies of P Screenshot 2",
+                "thumbnailUrl": "https://img.opencritic.com/game/15437/OvDzVSbj.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15437/o/lCxoPGMd.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Lies of P Screenshot 3",
+                "thumbnailUrl": "https://img.opencritic.com/game/15437/PPe708pc.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15437/o/7X5IPW7j.jpg"
+            }
+        ],
+        "trailer": [
+            {
+                "@type": "VideoObject",
+                "name": "Lies of P - gamescom 2023 Trailer | How Many Lies?",
+                "url": "https://youtube.com/watch?v=pVnVNGKEufk",
+                "uploadDate": "2023-08-18T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/pVnVNGKEufk/hqdefault.jpg",
+                "description": "Faced with a city buried beneath the deceit of others, what lengths will you go in search of your own truth? Watch the new ...",
+                "embedUrl": "https://www.youtube.com/embed/pVnVNGKEufk"
+            },
+            {
+                "@type": "VideoObject",
+                "name": "Lies of P - Demo Accolades Trailer",
+                "url": "https://youtube.com/watch?v=4RYaLrk9VJ0",
+                "uploadDate": "2023-08-03T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/4RYaLrk9VJ0/hqdefault.jpg",
+                "description": "Take a deeper look at what critics had to say about the Lies of P Demo. Play the Lies of P demo and preorder now!",
+                "embedUrl": "https://www.youtube.com/embed/4RYaLrk9VJ0"
+            },
+            {
+                "@type": "VideoObject",
+                "name": "Lies of P - Gameplay Showcase",
+                "url": "https://youtube.com/watch?v=cK1zg_yGlOA",
+                "uploadDate": "2023-06-13T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/cK1zg_yGlOA/hqdefault.jpg",
+                "description": "Play the Lies of P demo and preorder now! Lies of P will be available on September 19, 2023 worldwide on PS4. PS5, Xbox One ...",
+                "embedUrl": "https://www.youtube.com/embed/cK1zg_yGlOA"
+            }
+        ],
+        "author": [
+            {
+                "@type": "Organization",
+                "name": "NEOWIZ"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 82,
+            "bestRating": 100,
+            "worstRating": 0,
+            "reviewCount": 101,
+            "ratingCount": 101,
+            "name": "OpenCritic Rating",
+            "description": "The OpenCritic Rating system helps gamers know the level of quality to expect when playing a game. Using our \"Mighty Man,\" gamers can quickly see if a game is in the elite tier (Mighty), high quality (Strong), decent (Fair), or low quality (Weak)."
+        }
+    },
+    "offers": [
+        {
+            "price": "€39.69",
+            "url": "https://cdkeys.pxf.io/c/4269744/1625375/18216?prodsku=D%2FLSOPPC&u=https%3A%2F%2Fwww.cdkeys.com%2Flies-of-p-pc-steam%3F__currency%3Deur&intsrc=CATF_12138&mw_aref=cdkeys-cheap&data1=b11d1fc5cb06d6787011da89a5594289c67b3b17&data2=",
+            "name": "CDKeys.com"
+        },
+        {
+            "price": "€52.16",
+            "url": "https://www.g2a.com/de-de/lies-of-p-pc-steam-key-global-i10000339622001?___currency=EUR&aid=13523561&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": "€52.50",
+            "url": "https://kinguin.net/en/category/181507/lies-of-p-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=4d34cdf40d735c436ecfee95150e1155fbe15256&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": "€54.99",
+            "url": "https://www.eneba.com/steam-lies-of-p-pc-steam-key-global?currency=EUR",
+            "name": "Eneba"
+        },
+        {
+            "price": "€54.99",
+            "url": "https://kinguin.net/en/category/185114/lies-of-p-eu-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=4d5a1267db19a760ace2e718455e3831cd12a3f5&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": "€55.29",
+            "url": "https://www.gamivo.com/product/lies-of-p-pc-steam-global-en-de-fr-it-pl-ja-ko-ru-zh-es-zh-standard?glv=5piq6dd5",
+            "name": "Gamivo"
+        },
+        {
+            "price": "€59.21",
+            "url": "https://www.gamivo.com/product/lies-of-p-pc-steam-eu-en-de-fr-it-pl-ja-ko-ru-zh-es-zh-standard?glv=5piq6dd5",
+            "name": "Gamivo"
+        },
+        {
+            "price": "€59.99",
+            "url": "https://www.tkqlhce.com/click-100127123-13674779?url=https%3A%2F%2Fwww.fanatical.com%2Fen%2Fgame%2Flies-of-p",
+            "name": "Fanatical"
+        },
+        {
+            "price": "€60.50",
+            "url": "https://www.hrkgame.com/en/games/product/lies-of-p?data1=14020a00dc2c729a9a2d862ae19ae566b0cef479&data2=",
+            "name": "HRK Game"
+        },
+        {
+            "price": "€63.17",
+            "url": "https://www.gamivo.com/product/lies-of-p-pc-steam-gift-global-en-de-fr-it-pl-ja-ko-ru-zh-es-zh-standard?glv=5piq6dd5",
+            "name": "Gamivo"
+        },
+        {
+            "price": "€63.22",
+            "url": "https://kinguin.net/en/category/166594/lies-of-p-steam-altergift?nosalesbooster=1&currency=EUR&noff=1&data1=e553eaf1b88b68e8843ac6b620406fe19f6c114d&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": "€63.73",
+            "url": "https://k4g.com/product/lies-of-p-steam-global-instant-cd-key-standard-edition-cd-key-DE9E001D?data1=499207926b2c8f337fc17c86173f53a44f0abde2&data2=",
+            "name": "K4G"
+        },
+        {
+            "price": "€64.85",
+            "url": "https://kinguin.net/en/category/185977/lies-of-p-deluxe-edition-eu-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=a0533319d0f387ac0c9589ebd568502194bdcb3a&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": "€65.42",
+            "url": "https://k4g.com/product/lies-of-p-steam-global-instant-altergift-standard-edition-gift-EB1F2E32?data1=65b81de4406e6fa92166c2cc1374b420360340e2&data2=",
+            "name": "K4G"
+        },
+        {
+            "price": "€69.00",
+            "url": "https://www.eneba.com/steam-lies-of-p-deluxe-edition-pc-steam-key-global?currency=EUR",
+            "name": "Eneba"
+        },
+        {
+            "price": "€69.99",
+            "url": "https://www.tkqlhce.com/click-100127123-13674779?url=https%3A%2F%2Fwww.fanatical.com%2Fen%2Fbundle%2Flies-of-p-deluxe-edition",
+            "name": "Fanatical"
+        },
+        {
+            "price": "€71.21",
+            "url": "https://www.eneba.com/steam-lies-of-p-pc-steam-key-europe?currency=EUR",
+            "name": "Eneba"
+        },
+        {
+            "price": "€74.44",
+            "url": "https://www.g2a.com/de-de/lies-of-p-pc-steam-key-europe-i10000339622002?___currency=EUR&aid=13522843&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        }
+    ]
+}
