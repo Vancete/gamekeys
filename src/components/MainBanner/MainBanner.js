@@ -37,6 +37,11 @@ export const MainBanner = () => {
                         at best <b>prices</b>
                     </span>
                 </h1>
+                <h2>
+                    Buy the cheapest CD keys of your favourite
+                    <br />
+                    games at the cheapest prices on internet
+                </h2>
             </div>
             <img
                 className="back"

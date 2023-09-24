@@ -11,6 +11,7 @@
             @apply absolute text-white flex flex-col;
             font-size: 500%;
             line-height: 110%;
+            transform: translateY(-60px);
 
             span {
                 &:first-of-type {
@@ -25,6 +26,11 @@
             b {
                 color: #ff459a;
             }
+        }
+
+        h2 {
+            @apply absolute text-white text-3xl leading-relaxed ml-8;
+            transform: translateY(90px);
         }
     }
 
