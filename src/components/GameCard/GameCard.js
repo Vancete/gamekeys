@@ -1,6 +1,6 @@
 import './GameCard.scss'
 
-export const GameCard = ({ title, image, ...props }) => {
+export const GameCard = ({ title, image, price, ...props }) => {
     return (
         <div className="game-card">
             <div className="image">
@@ -8,6 +8,7 @@ export const GameCard = ({ title, image, ...props }) => {
             </div>
             <div className="info">
                 <label alt={title}>{title}</label>
+                <label className='price'>{price}</label>
             </div>
         </div>
     )
