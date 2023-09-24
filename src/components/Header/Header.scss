@@ -1,19 +1,56 @@
 header {
-    @apply p-6 flex w-full justify-between items-center text-white;
+    @apply flex flex-col w-full text-white;
 
     background: #140012;
 
     .header-main {
-        @apply flex items-center;
+        @apply flex items-center px-16 py-6;
 
         .search {
-            @apply ml-10 px-4 py-2 rounded-full;
+            @apply ml-5 relative flex items-center;
 
-            background-color: rgb(35, 35, 35);
+            .search-icon {
+                @apply absolute left-4;
+
+                path {
+                    stroke: white;
+                }
+            }
+
+            input {
+                @apply pl-12 py-3 rounded-full;
+
+                box-shadow: inset 0px 1px rgba(255, 255, 255, 0.05);
+                background-color: rgba(52, 52, 52, 0.75);
+                outline: 0px solid #ff459900;
+                min-width: 400px;
+                transition: outline 0.1s;
+
+                &:focus {
+                    outline: 2px solid #ff459a;
+                }
+            }
+        }
+
+        .header-actions {
+            @apply flex ml-auto;
+
+            .action {
+                @apply flex cursor-pointer;
+
+                svg {
+                    @apply mr-2;
+
+                    path {
+                        fill: white;
+                    }
+                }
+            }
         }
     }
 
-    .header-actions {
-        @apply flex;
+    .header-menu {
+        @apply bg-white w-full;
+        min-height: 72px;
     }
 }

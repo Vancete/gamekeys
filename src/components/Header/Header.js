@@ -1,24 +1,26 @@
-import Image from "next/image";
-import "./Header.scss";
+import Image from 'next/image'
+import './Header.scss'
+
+import { SearchIcon } from './icons/search-icon'
+import { HeartIcon } from './icons/heart-icon'
 
 export const Header = () => {
-  return (
-    <header>
-      <div className="header-main">
-        <Image
-          src="/gamekeys-logo.svg"
-          alt="gamekeys-logo"
-          width={200}
-          height={42}
-        />
-        <form>
-          <input type="text" placeholder="Buscar" className="search"></input>
-        </form>
-      </div>
-      <div className="header-actions">
-        <label>prueba</label>
-        <label>Lista de deseos</label>
-      </div>
-    </header>
-  );
-};
+    return (
+        <header>
+            <div className="header-main">
+                <Image className="gamekeys-logo" src="/gamekeys-logo.svg" alt="gamekeys-logo" width={200} height={42} />
+                <form className="search">
+                    <SearchIcon className="search-icon" />
+                    <input type="text" placeholder="Buscar"></input>
+                </form>
+                <div className="header-actions">
+                    <div className="action">
+                        <HeartIcon className="wishlist-icon" />
+                        <label>Wish list</label>
+                    </div>
+                </div>
+            </div>
+            <div className="header-menu"></div>
+        </header>
+    )
+}
