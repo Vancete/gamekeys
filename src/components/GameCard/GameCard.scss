@@ -29,11 +29,19 @@
         .price {
             @apply absolute flex items-center right-3 px-2 py-1 pr-5 bg-white rounded-xl text-black font-semibold text-lg;
 
-            box-shadow:  0px 20px 20px black;
+            box-shadow: 8px 0px 20px 20px black;
 
-            &:after {
+            &::after {
                 @apply absolute right-2 text-black font-semibold text-base;
                 content: '€'
+            }
+
+            &.free {
+                @apply pr-2;
+                
+                &::after {
+                    content: none;
+                }
             }
         }
     }

@@ -6,6 +6,7 @@
     .content {
         @apply absolute flex items-center h-full w-full;
         max-width: 1400px;
+        animation: move-right 1.5s forwards;
 
         h1 {
             @apply absolute text-white flex flex-col;
@@ -13,23 +14,13 @@
             line-height: 110%;
             transform: translateY(-60px);
 
-            span {
-                &:first-of-type {
-                    animation: move-right 1s forwards;
-                }
-
-                &:last-of-type {
-                    animation: move-left 1s forwards;
-                }
-            }
-
             b {
                 color: #ff459a;
             }
         }
 
         h2 {
-            @apply absolute text-white text-3xl leading-relaxed ml-8;
+            @apply absolute text-white text-3xl leading-relaxed;
             transform: translateY(90px);
         }
     }
@@ -43,23 +34,36 @@
         @apply absolute right-0;
         height: 110%;
         margin-right: 12.5%;
+        animation: move-up 1.5s forwards;
     }
 
     @keyframes move-right {
         0% {
+            opacity: 0;
+            transform: translateX(0%);
+        }
+        33% {
+            opacity: 0;
             transform: translateX(0%);
         }
         100% {
+            opacity: 1;
             transform: translateX(2.5%);
         }
     }
 
-    @keyframes move-left {
+    @keyframes move-up {
         0% {
-            transform: translateX(0%);
+            opacity: 0;
+            transform: translateY(25%);
+        }
+        33% {
+            opacity: 0;
+            transform: translateY(25%);
         }
         100% {
-            transform: translateX(-2.5%);
+            opacity: 1;
+            transform: translateY(0%);
         }
     }
 }

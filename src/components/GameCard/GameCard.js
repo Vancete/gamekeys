@@ -8,7 +8,7 @@ export const GameCard = ({ title, image, price, ...props }) => {
             </div>
             <div className="info">
                 <label alt={title}>{title}</label>
-                <label className='price'>{price}</label>
+                <label className={`price ${price === 0 ? 'free' : ''}`}>{price === 0 ? 'FREE' : price}</label>
             </div>
         </div>
     )
