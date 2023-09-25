@@ -24,4 +24,12 @@ body {
 main {
     @apply w-full m-auto mt-12;
     max-width: 1400px;
+
+    &.main-page {
+        .main-section {
+            &:first-of-type {
+                margin-bottom: 20px;
+            }
+        }
+    }
 }

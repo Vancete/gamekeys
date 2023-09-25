@@ -60,7 +60,7 @@ export default function Home() {
         <>
             <Header />
             <MainBanner />
-            <main>
+            <main className="main-page">
                 <MainSection title="Most popular" icon={<StarIcon />}>
                     {newReleases.slice(0, 3).map((item) => (
                         <GameCard key={item.title} title={item.title} image={item.image} price={item.price} />
