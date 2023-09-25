@@ -1,0 +1,137 @@
+{
+    "data": {
+        "@context": "http://schema.org",
+        "@type": "VideoGame",
+        "applicationCategory": "Game",
+        "url": "/game/9136/baldurs-gate-3",
+        "dateCreated": "2020-03-10T17:56:45.119Z",
+        "name": "Baldur's Gate 3",
+        "gamePlatform": [
+            "PC",
+            "PlayStation 5"
+        ],
+        "description": "Gather your party, and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival, and the lure of absolute power. \n\nMysterious abilities are awakening inside you, drawn from a Mind Flayer parasite planted in your brain. Resist, and turn darkness against itself. Or embrace corruption, and become ultimate evil.  \n\nFrom the creators of Divinity: Original Sin 2 comes a next-generation RPG, set in the world of Dungeons and Dragons.  \n\nChoose from a wide selection of D&D races and classes, or play as an origin character with a hand-crafted background. Adventure, loot, battle and romance as you journey through the Forgotten Realms and beyond. Play alone, and select your companions carefully, or as a party of up to four in multiplayer.\n\n\nAN EXPANSIVE ORIGINAL STORY\n\nAbducted, infected, lost. You are turning into a monster, but as the corruption inside you grows, so does your power. That power may help you to survive, but there will be a price to pay, and more than any ability, the bonds of trust that you build within your party could be your greatest strength. Caught in a conflict between devils, deities, and sinister otherworldly forces, you will determine the fate of the Forgotten Realms together.\n\nForged with the new Divinity 4.0 engine, Baldur’s Gate 3 gives you unprecedented freedom to explore, experiment, and interact with a world that reacts to your choices. A grand, cinematic narrative brings you closer to your characters than ever before, as you venture through our biggest world yet.\n\n\nNO ADVENTURE WILL BE THE SAME \n\nThe Forgotten Realms are a vast, detailed and diverse  world, and there are secrets to be discovered all around you -- verticality is a vital part of exploration. Sneak, dip, shove, climb, and jump as you journey from the depths of the Underdark to the glittering rooftops of the Upper City. How you survive, and the mark you leave on the world, is up to you.\n\n\nOnline multiplayer for up to four players allows you to combine your forces in combat, and split your party to follow your own quests and agendas. Concoct the perfect plan together… or introduce an element of chaos when your friends least expect it.\n\n\nOrigin Characters offer a hand-crafted experience, each with their own unique traits, agenda, and outlook on the world. Their stories intersect with the entire narrative, and your choices will determine whether those stories end in redemption, salvation, domination, or many other outcomes.  \n\n\nEvolved turn-based combat, based on the D&D 5e ruleset. Team-based initiative, advantage & disadvantage, and roll modifiers join combat cameras, expanded environmental interactions, and a new fluidity in combat that rewards strategy and foresight. \n\n\nDefine the future of the Forgotten Realms through your choices, and the roll of the dice. No matter who you play, or what you roll, the world and its inhabitants will react to your story. \n\n\nPlayer-initiated turn-based mode allows you to pause the world around you at any time even outside of combat. Whether you see an opportunity for a tactical advantage before combat begins, want to pull off a heist with pin-point precision, or need to escape a fiendish trap. Split your party, prepare ambushes, sneak in the darkness -- create your own luck!",
+        "operatingSystem": [
+            "PC",
+            "PlayStation 5"
+        ],
+        "genre": [
+            "Adventure",
+            "RPG"
+        ],
+        "datePublished": "2023-08-03T00:00:00.000Z",
+        "image": "https://img.opencritic.com/game/9136/o/MPo6LRsJ.jpg",
+        "dateModified": "2023-09-18T00:00:00.000Z",
+        "screenshot": [
+            {
+                "@type": "ImageObject",
+                "caption": "Baldur's Gate 3 Box Art",
+                "contentUrl": "https://img.opencritic.com/game/9136/o/MPo6LRsJ.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Baldur's Gate 3 Square"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Baldur's Gate 3 Masthead",
+                "contentUrl": "https://img.opencritic.com/game/9136/fSYYsAEj.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Baldur's Gate 3 Screenshot 1",
+                "thumbnailUrl": "https://img.opencritic.com/game/9136/bGzg1OPC.jpg",
+                "contentUrl": "https://img.opencritic.com/game/9136/o/HCHipBxf.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Baldur's Gate 3 Screenshot 2",
+                "thumbnailUrl": "https://img.opencritic.com/game/9136/I4gIxSqz.jpg",
+                "contentUrl": "https://img.opencritic.com/game/9136/o/CuqUu41h.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Baldur's Gate 3 Screenshot 3",
+                "thumbnailUrl": "https://img.opencritic.com/game/9136/0LOv7bMQ.jpg",
+                "contentUrl": "https://img.opencritic.com/game/9136/o/6VvOfkVh.jpg"
+            }
+        ],
+        "trailer": [
+            {
+                "@type": "VideoObject",
+                "name": "Baldur's Gate 3 Opening Cinematic",
+                "url": "https://youtube.com/watch?v=jNY7AEQ59-8",
+                "uploadDate": "2020-02-27T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/jNY7AEQ59-8/hqdefault.jpg",
+                "description": "Gather your party and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival, and the lure of absolute power. Forged with the ...",
+                "embedUrl": "https://www.youtube.com/embed/jNY7AEQ59-8"
+            },
+            {
+                "@type": "VideoObject",
+                "name": "Baldur’s Gate 3 World Gameplay Reveal Announcement",
+                "url": "https://youtube.com/watch?v=maijYOOO-pE",
+                "uploadDate": "2020-02-18T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/maijYOOO-pE/hqdefault.jpg",
+                "description": "Gather your party: https://baldursgate3.game/ We've been working, growing, driving towards this moment for the past few years. It's nearly here. The World ...",
+                "embedUrl": "https://www.youtube.com/embed/maijYOOO-pE"
+            },
+            {
+                "@type": "VideoObject",
+                "name": "Baldur's Gate 3 - Official Announcement Trailer",
+                "url": "https://youtube.com/watch?v=OcP0WdH7rTs",
+                "uploadDate": "2019-06-06T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/OcP0WdH7rTs/hqdefault.jpg",
+                "description": "Gather your party: http://baldursgate3.game Developed by Larian Studios - the creators of Divinity: Original Sin 2, BG3 is the official next adventure in the ...",
+                "embedUrl": "https://www.youtube.com/embed/OcP0WdH7rTs"
+            }
+        ],
+        "author": [
+            {
+                "@type": "Organization",
+                "name": "Larian Studios"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 96,
+            "bestRating": 100,
+            "worstRating": 0,
+            "reviewCount": 119,
+            "ratingCount": 119,
+            "name": "OpenCritic Rating",
+            "description": "The OpenCritic Rating system helps gamers know the level of quality to expect when playing a game. Using our \"Mighty Man,\" gamers can quickly see if a game is in the elite tier (Mighty), high quality (Strong), decent (Fair), or low quality (Weak)."
+        }
+    },
+    "offers": [
+        {
+            "price": 61.41,
+            "url": "https://kinguin.net/en/category/77734/baldur-s-gate-iii-steam-altergift?nosalesbooster=1&currency=EUR&noff=1&data1=85c7393130bc0034e71cf6a0a12264c0c6d60904&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 61.42,
+            "url": "https://kinguin.net/en/category/77733/baldur-s-gate-iii-eu-steam-altergift?nosalesbooster=1&currency=EUR&noff=1&data1=a3f39458595d06c1c89dd47d56c9e7ae043023d7&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 63.37,
+            "url": "https://www.hrkgame.com/en/games/product/baldurs-gate-3?data1=043c13454ddae1c27c35df860d304ecddf4e7981&data2=",
+            "name": "HRK Game"
+        },
+        {
+            "price": 65.46,
+            "url": "https://k4g.com/product/baldur-s-gate-3-steam-europe-altergift-standard-edition-gift-5816B71E?data1=ee79baeb14ec5d733711ed4ff72d3a9796599b04&data2=",
+            "name": "K4G"
+        },
+        {
+            "price": 65.46,
+            "url": "https://k4g.com/product/baldur-s-gate-3-steam-global-standard-edition-altergift-gift-4693C964?data1=bea6169e3a850a210333a7f6ccbcdce1853fd295&data2=",
+            "name": "K4G"
+        },
+        {
+            "price": 89.9,
+            "url": "https://www.eneba.com/steam-baldurs-gate-3-digital-deluxe-edition-pc-steam-key-global?currency=EUR",
+            "name": "Eneba"
+        }
+    ]
+}

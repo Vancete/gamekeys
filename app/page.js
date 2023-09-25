@@ -10,7 +10,11 @@ import { Footer } from '@/src/components/Footer/Footer'
 export default function Home() {
     const popularGames = [
         { title: 'Starfield', image: 'https://img.opencritic.com/game/14907/YGJBcWFc.jpg', price: 45 },
-        { title: 'Cyberpunk 2077', image: 'https://img.opencritic.com/game/8525/E6Fgdch4.jpg', price: 27 },
+        {
+            title: 'Cyberpunk 2077: Phantom Liberty',
+            image: 'https://img.opencritic.com/game/15196/fkFeB1Fg.jpg',
+            price: 27,
+        },
         { title: 'Lies of P', image: 'https://img.opencritic.com/game/15437/WfcS2Ver.jpg', price: 40 },
         { title: 'Sea of Stars', image: 'https://img.opencritic.com/game/15003/cfvJYxOD.jpg', price: 16 },
         {

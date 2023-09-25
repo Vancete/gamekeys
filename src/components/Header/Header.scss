@@ -38,6 +38,10 @@ header {
             .action {
                 @apply flex cursor-pointer;
 
+                label {
+                    @apply cursor-pointer;
+                }
+
                 svg {
                     @apply mr-2;
 

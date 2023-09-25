@@ -5,6 +5,8 @@ import { Header } from '@/src/components/Header/Header'
 export default function Page({ params }) {
     const id = params.id
     const gameData = require(`../../../data/${id}.json`).data
+    const offers = require(`../../../data/${id}.json`).offers
+    const sortedOffers = offers.sort((a, b) => a.price - b.price)
 
     const title = gameData.name
     const { publisher, author } = gameData
@@ -23,6 +25,7 @@ export default function Page({ params }) {
                 masthead={mastheadImage}
                 image={mainImage}
                 description={description}
+                offers={sortedOffers}
             />
             <main></main>
             <Footer />

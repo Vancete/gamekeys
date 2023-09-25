@@ -1,0 +1,219 @@
+{
+    "data": {
+        "@context": "http://schema.org",
+        "@type": "VideoGame",
+        "applicationCategory": "Game",
+        "url": "/game/15004/mortal-kombat-1",
+        "dateCreated": "2023-05-30T16:14:56.134Z",
+        "name": "Mortal Kombat 1",
+        "gamePlatform": [
+            "PC",
+            "PlayStation 5",
+            "Xbox Series X/S"
+        ],
+        "description": "It’s In Our Blood!\n\n\n\nDiscover a reborn Mortal Kombat Universe created by the Fire God Liu Kang. Mortal Kombat 1 ushers in a new era of the iconic franchise with a new fighting system, game modes, and fatalities!",
+        "operatingSystem": [
+            "PC",
+            "PlayStation 5",
+            "Xbox Series X/S"
+        ],
+        "genre": [
+            "Fighting",
+            "Action"
+        ],
+        "datePublished": "2023-09-19T00:00:00.000Z",
+        "image": "https://img.opencritic.com/game/15004/o/7y3QTZ1L.jpg",
+        "dateModified": "2023-09-25T00:00:00.000Z",
+        "screenshot": [
+            {
+                "@type": "ImageObject",
+                "caption": "Mortal Kombat 1 Box Art",
+                "contentUrl": "https://img.opencritic.com/game/15004/o/7y3QTZ1L.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Mortal Kombat 1 Square"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Mortal Kombat 1 Logo",
+                "contentUrl": "https://img.opencritic.com/game/15004/o/X4hUIqvr.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Mortal Kombat 1 Masthead",
+                "contentUrl": "https://img.opencritic.com/game/15004/cvWZR3x8.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Mortal Kombat 1 Screenshot 1",
+                "thumbnailUrl": "https://img.opencritic.com/game/15004/jWW8HbFf.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15004/o/oQ9V2c5x.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Mortal Kombat 1 Screenshot 2",
+                "thumbnailUrl": "https://img.opencritic.com/game/15004/d4CZZNGk.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15004/o/vUr0T0ng.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "Mortal Kombat 1 Screenshot 3",
+                "thumbnailUrl": "https://img.opencritic.com/game/15004/hNEE9rPi.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15004/o/LCqCgIhQ.jpg"
+            }
+        ],
+        "trailer": [
+            {
+                "@type": "VideoObject",
+                "name": "Mortal Kombat 1 - Official Announcement Trailer",
+                "url": "https://youtube.com/watch?v=UZ6eFEjFfJ0",
+                "uploadDate": "2023-05-18T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/UZ6eFEjFfJ0/hqdefault.jpg",
+                "description": "A new era has begun. It's In Our Blood. Discover a reborn Mortal Kombat Universe created by Fire God Liu Kang. Mortal Kombat 1 ...",
+                "embedUrl": "https://www.youtube.com/embed/UZ6eFEjFfJ0"
+            }
+        ],
+        "author": [
+            {
+                "@type": "Organization",
+                "name": "NetherRealm Studios"
+            },
+            {
+                "@type": "Organization",
+                "name": "Shiver Entertainment"
+            },
+            {
+                "@type": "Organization",
+                "name": "Saber Interactive"
+            },
+            {
+                "@type": "Organization",
+                "name": "QLOC"
+            }
+        ],
+        "publisher": [
+            {
+                "@type": "Organization",
+                "name": "Warner Bros. Games"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 85,
+            "bestRating": 100,
+            "worstRating": 0,
+            "reviewCount": 83,
+            "ratingCount": 83,
+            "name": "OpenCritic Rating",
+            "description": "The OpenCritic Rating system helps gamers know the level of quality to expect when playing a game. Using our \"Mighty Man,\" gamers can quickly see if a game is in the elite tier (Mighty), high quality (Strong), decent (Fair), or low quality (Weak)."
+        }
+    },
+    "offers": [
+        {
+            "price": 49.34,
+            "url": "https://kinguin.net/en/category/185961/mortal-kombat-1-eu-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=ca0c029dcc8aacacee42e3556c1ac1de7b59d8ba&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 49.34,
+            "url": "https://kinguin.net/en/category/181286/mortal-kombat-1-row-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=af9a56468225715f95bcc904e8829e9222366c5e&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 49.99,
+            "url": "https://www.eneba.com/steam-mortal-kombat-1-pc-steam-key-europe?currency=EUR",
+            "name": "Eneba"
+        },
+        {
+            "price": 51,
+            "url": "https://www.eneba.com/steam-mortal-kombat-1-pc-steam-key-global?currency=EUR",
+            "name": "Eneba"
+        },
+        {
+            "price": 51.73,
+            "url": "https://www.hrkgame.com/en/games/product/mortal-kombat-1?data1=fd6436e6b0237c54b69a61976218e72957ddc2ee&data2=",
+            "name": "HRK Game"
+        },
+        {
+            "price": 54.99,
+            "url": "https://www.hrkgame.com/en/games/product/mortal-kombat-1-europe?data1=cfd870e45a53303b948752a230fdd9bc2dd19051&data2=",
+            "name": "HRK Game"
+        },
+        {
+            "price": 55.1,
+            "url": "https://k4g.com/product/mortal-kombat-1-steam-global-cd-key-standard-edition-cd-key-C5E8FF73?data1=a306a43e7038636fae51d7710acb25807b94248d&data2=",
+            "name": "K4G"
+        },
+        {
+            "price": 56.55,
+            "url": "https://www.g2a.com/de-de/mortal-kombat-1-pc-steam-key-europe-i10000339458002?___currency=EUR&aid=13523483&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": 58.09,
+            "url": "https://www.g2a.com/de-de/mortal-kombat-1-pc-steam-key-global-i10000339458001?___currency=EUR&aid=13523481&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": 60.89,
+            "url": "https://www.anrdoezrs.net/click-100127123-13674779?url=https%3A%2F%2Fwww.fanatical.com%2Fen%2Fgame%2Fmortal-kombat-1",
+            "name": "Fanatical"
+        },
+        {
+            "price": 65.75,
+            "url": "https://kinguin.net/en/category/185189/mortal-kombat-1-premium-edition-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=2bc74b3089c559af58de3a4cd63790e03ce4fc60&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 68.3,
+            "url": "https://www.gamivo.com/product/mortal-kombat-1-pc-steam-global-en-premium?glv=5piq6dd5",
+            "name": "Gamivo"
+        },
+        {
+            "price": 68.62,
+            "url": "https://www.eneba.com/steam-mortal-kombat-1-premium-edition-pc-steam-key-europe?currency=EUR",
+            "name": "Eneba"
+        },
+        {
+            "price": 68.62,
+            "url": "https://www.eneba.com/steam-mortal-kombat-1-premium-edition-pc-steam-key-global?currency=EUR",
+            "name": "Eneba"
+        },
+        {
+            "price": 69.1,
+            "url": "https://kinguin.net/en/category/185685/mortal-kombat-1-premium-edition-eu-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=c2bd02c16073346f1022b8713cbe6e8099dfa1ce&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 70.97,
+            "url": "https://k4g.com/product/mortal-kombat-1-steam-global-cd-key-premium-edition-cd-key-D2B0832F?data1=e3dd1b75a61bb1e67801f84a0bcb7b147c6997aa&data2=",
+            "name": "K4G"
+        },
+        {
+            "price": 72.77,
+            "url": "https://www.hrkgame.com/en/games/product/mortal-kombat-1-premium-edition-europe?data1=53ab5b31d053c15e71f0269f38ead84036c267af&data2=",
+            "name": "HRK Game"
+        },
+        {
+            "price": 73.28,
+            "url": "https://www.hrkgame.com/en/games/product/mortal-kombat-1-premium-edition?data1=4354fa86d93450612f3403add4e4476600df8de9&data2=",
+            "name": "HRK Game"
+        },
+        {
+            "price": 75.24,
+            "url": "https://www.g2a.com/de-de/mortal-kombat-1-premium-edition-pc-steam-key-europe-i10000339458007?___currency=EUR&aid=13521277&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": 77.35,
+            "url": "https://www.g2a.com/de-de/mortal-kombat-1-premium-edition-pc-steam-key-global-i10000339458006?___currency=EUR&aid=13521382&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": 82.64,
+            "url": "https://www.anrdoezrs.net/click-100127123-13674779?url=https%3A%2F%2Fwww.fanatical.com%2Fen%2Fgame%2Fmortal-kombat-1-premium-edition",
+            "name": "Fanatical"
+        }
+    ]
+}

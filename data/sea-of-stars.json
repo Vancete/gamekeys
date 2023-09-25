@@ -119,63 +119,63 @@
     },
     "offers": [
         {
-            "price": "€20.59",
+            "price": 20.59,
             "url": "https://www.gamivo.com/product/sea-of-stars-pc-steam-global-en-de-fr-ja-ko-pt-ru-zh-es-zh-standard?glv=5piq6dd5",
             "name": "Gamivo"
         },
         {
-            "price": "€20.71",
-            "url": "https://www.hrkgame.com/en/games/product/sea-of-stars?data1=d2995f8edefbc7d2ec51f41e3bb7eeebd007b4d1&data2=",
+            "price": 20.76,
+            "url": "https://www.hrkgame.com/en/games/product/sea-of-stars?data1=8d7614053f87a19feacad1674fa42005ed7a8464&data2=",
             "name": "HRK Game"
         },
         {
-            "price": "€20.88",
+            "price": 20.88,
             "url": "https://www.eneba.com/steam-sea-of-stars-pc-steam-key-global?currency=EUR",
             "name": "Eneba"
         },
         {
-            "price": "€21.09",
-            "url": "https://kinguin.net/en/category/181174/sea-of-stars-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=e6737692c755accdef8a1137a6214cea82e14609&data2=",
+            "price": 21.09,
+            "url": "https://kinguin.net/en/category/181174/sea-of-stars-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=cb24fced09b0c86e4f57076c2ceed081f20ee554&data2=",
             "name": "Kinguin"
         },
         {
-            "price": "€21.32",
-            "url": "https://kinguin.net/en/category/181176/sea-of-stars-eu-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=0289d7b3ab364dca47246b3dc9ad3dda82a34dfe&data2=",
+            "price": 21.32,
+            "url": "https://kinguin.net/en/category/181176/sea-of-stars-eu-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=4484d156150a8c2c3f6aad551b0370726d7c2a77&data2=",
             "name": "Kinguin"
         },
         {
-            "price": "€21.34",
-            "url": "https://k4g.com/product/sea-of-stars-steam-global-cd-key-cd-key-D391F227?data1=15bfed81d26a7fbc72a1dd9f6ea49c69a7e2397a&data2=",
+            "price": 21.34,
+            "url": "https://k4g.com/product/sea-of-stars-steam-global-cd-key-cd-key-D391F227?data1=4887d3117a862671ad17a1be185cb51884b33419&data2=",
             "name": "K4G"
         },
         {
-            "price": "€22.34",
+            "price": 22.34,
             "url": "https://www.g2a.com/de-de/sea-of-stars-pc-steam-key-global-i10000500428001?___currency=EUR&aid=13519529&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
             "name": "G2A"
         },
         {
-            "price": "€24.20",
-            "url": "https://www.hrkgame.com/en/games/product/sea-of-stars-europe?data1=178a040c5e1d02349e781a8576cdfe69f0bf8afd&data2=",
+            "price": 24.2,
+            "url": "https://www.hrkgame.com/en/games/product/sea-of-stars-europe?data1=502ea55ccb65fd40bb85327920fca945b303de01&data2=",
             "name": "HRK Game"
         },
         {
-            "price": "€27.18",
+            "price": 27.18,
             "url": "https://www.g2a.com/de-de/sea-of-stars-pc-steam-key-europe-i10000500428002?___currency=EUR&aid=13512752&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
             "name": "G2A"
         },
         {
-            "price": "€38.36",
-            "url": "https://kinguin.net/en/category/181469/sea-of-stars-steam-altergift?nosalesbooster=1&currency=EUR&noff=1&data1=cf15c51d10f2a902be9f782fa56cc9d766ae2a69&data2=",
+            "price": 38.36,
+            "url": "https://kinguin.net/en/category/181469/sea-of-stars-steam-altergift?nosalesbooster=1&currency=EUR&noff=1&data1=944f5377fdc9cccd6bd008290d7de55c353c8d8c&data2=",
             "name": "Kinguin"
         },
         {
-            "price": "€38.37",
+            "price": 38.37,
             "url": "https://www.gamivo.com/product/sea-of-stars-pc-steam-gift-global-en-de-fr-ja-ko-pt-ru-zh-es-zh-standard?glv=5piq6dd5",
             "name": "Gamivo"
         },
         {
-            "price": "€39.72",
-            "url": "https://k4g.com/product/sea-of-stars-steam-global-altergift-gift-74AC3D5B?data1=1f708249ccc20f7e384650529a4c1604ab0fca5c&data2=",
+            "price": 39.72,
+            "url": "https://k4g.com/product/sea-of-stars-steam-global-altergift-gift-74AC3D5B?data1=64395eb8f98e415eef2c168c6966d729cc4e5316&data2=",
             "name": "K4G"
         }
     ]

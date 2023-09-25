@@ -102,19 +102,34 @@
     },
     "offers": [
         {
-            "price": "€62.08",
+            "price": 62.01,
             "url": "https://www.g2a.com/de-de/the-legend-of-zelda-tears-of-the-kingdom-nintendo-switch-nintendo-eshop-key-europe-i10000338965003?___currency=EUR&aid=13484335&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
             "name": "G2A"
         },
         {
-            "price": "€67.96",
-            "url": "https://kinguin.net/en/category/166755/the-legend-of-zelda-tears-of-the-kingdom-us-nintendo-switch-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=395b6831c134892380ca51b2a2bacfcf006785c8&data2=",
+            "price": 67.96,
+            "url": "https://kinguin.net/en/category/166755/the-legend-of-zelda-tears-of-the-kingdom-us-nintendo-switch-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=748c7ba14eda63df491ede61af8bdf50e0b8bb05&data2=",
             "name": "Kinguin"
         },
         {
-            "price": "€69.90",
+            "price": 69.9,
             "url": "https://www.eneba.com/nintendo-the-legend-of-zelda-tears-of-the-kingdom-nintendo-switch-eshop-key-europe?currency=EUR",
             "name": "Eneba"
+        },
+        {
+            "price": 106,
+            "url": "https://k4g.com/product/the-legend-of-zelda-tears-of-the-kingdom-nintendo-switch-europe-instant-cd-key-8DAB13BB?data1=344c257fd59f7dfb657babd870809094df0e8d64&data2=",
+            "name": "K4G"
+        },
+        {
+            "price": 127,
+            "url": "https://kinguin.net/en/category/156981/the-legend-of-zelda-tears-of-the-kingdom-eu-nintendo-switch-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=801db329ad1afcc6cac7736ad39181d31c61a8ad&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 140,
+            "url": "https://www.hrkgame.com/en/games/product/the-legend-of-zelda-tears-of-the-kingdom-nintendo-switch?data1=cd13764f64265d4df3e0305bd477eecf025e9d04&data2=",
+            "name": "HRK Game"
         }
     ]
 }

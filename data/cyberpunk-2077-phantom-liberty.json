@@ -114,12 +114,12 @@
     },
     "offers": [
         {
-            "price": "€28.49",
+            "price": 28.49,
             "url": "https://k4g.com/product/cyberpunk-2077-phantom-liberty-steam-europe-altergift-gift-DCE8A179?data1=352c585621f9f52d9c0c51c5105b5f4b7f74afad&data2=",
             "name": "K4G"
         },
         {
-            "price": "€31.96",
+            "price": 31.96,
             "url": "https://k4g.com/product/cyberpunk-2077-phantom-liberty-steam-global-altergift-gift-BB6A3894?data1=c7ab556335608dcd2ede5a813eee11f928d74f57&data2=",
             "name": "K4G"
         }

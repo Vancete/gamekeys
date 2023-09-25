@@ -1,0 +1,205 @@
+{
+    "data": {
+        "@context": "http://schema.org",
+        "@type": "VideoGame",
+        "applicationCategory": "Game",
+        "url": "/game/15502/ea-sports-fc-24",
+        "dateCreated": "2023-09-14T18:50:39.861Z",
+        "name": "EA Sports FC 24",
+        "gamePlatform": [
+            "PlayStation 5",
+            "PC",
+            "Xbox Series X/S",
+            "PlayStation 4",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "description": "\nEA SPORTS FC™ 24 is a new era for The World’s Game: 19,000+ fully licensed players, 700+ teams, and 30+ leagues playing together in the most authentic football experience ever created.\n\nFeel closer to the game with three cutting-edge technologies powering unparalleled realism in every match: HyperMotionV**, PlayStyles optimised by Opta, and a revolutionised Frostbite™ Engine.\n\nHyperMotionV captures the game as it’s truly played, using volumetric data from 180+ pro men’s and women’s matches to ensure movement in-game accurately reflects real-world action on the pitch.\n\nPlayStyles dimensionalise athletes, interpreting data from Opta and other sources into signature abilities which heighten the realism and individuality of each player.\n\nThe revolutionised Frostbite™ Engine delivers The World’s Game in lifelike detail, bringing a new level of immersion to each match.\n\nDevelop club legends and improve your players with the brand new Ultimate Team™ Evolutions, and welcome women’s footballers to the pitch alongside men as you craft your dream XI.\n\nWrite your own story in Manager and Player Career, and join friends on the pitch with cross-play in Clubs and VOLTA FOOTBALL™.\n\nEA SPORTS FC™ 24 is the next chapter in a more innovative future of football.\n\nThis game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.",
+        "operatingSystem": [
+            "PlayStation 5",
+            "PC",
+            "Xbox Series X/S",
+            "PlayStation 4",
+            "Xbox One",
+            "Nintendo Switch"
+        ],
+        "genre": [
+            "Simulation",
+            "Sports"
+        ],
+        "datePublished": "2023-09-28T00:00:00.000Z",
+        "image": "https://img.opencritic.com/game/15502/o/ReoBd3rw.jpg",
+        "dateModified": "2023-09-24T00:00:00.000Z",
+        "screenshot": [
+            {
+                "@type": "ImageObject",
+                "caption": "EA Sports FC 24 Box Art",
+                "contentUrl": "https://img.opencritic.com/game/15502/o/ReoBd3rw.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "EA Sports FC 24 Square"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "EA Sports FC 24 Masthead",
+                "contentUrl": "https://img.opencritic.com/game/15502/iNkrGzWj.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "EA Sports FC 24 Screenshot 1",
+                "thumbnailUrl": "https://img.opencritic.com/game/15502/H66e06DW.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15502/o/ffRW8AG8.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "EA Sports FC 24 Screenshot 2",
+                "thumbnailUrl": "https://img.opencritic.com/game/15502/cVIRT55F.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15502/o/CFyGSpR6.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "EA Sports FC 24 Screenshot 3",
+                "thumbnailUrl": "https://img.opencritic.com/game/15502/HD2kNs34.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15502/o/SEXHjYkR.jpg"
+            }
+        ],
+        "trailer": [
+            {
+                "@type": "VideoObject",
+                "name": "EA SPORTS FC 24 | Official Clubs Deep Dive",
+                "url": "https://youtube.com/watch?v=me-ilql1OHs",
+                "uploadDate": "2023-08-17T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/me-ilql1OHs/hqdefault.jpg",
+                "description": "Go in-depth with new ways to play, progress, and personalise your Pro in EA SPORTS FC 24 Clubs. Pre-order FC 24 now: ...",
+                "embedUrl": "https://www.youtube.com/embed/me-ilql1OHs"
+            },
+            {
+                "@type": "VideoObject",
+                "name": "FC 24 Ultimate Team | Official Deep Dive Trailer",
+                "url": "https://youtube.com/watch?v=21Zxl8EL5ag",
+                "uploadDate": "2023-08-09T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/21Zxl8EL5ag/hqdefault.jpg",
+                "description": "See the new features in FC 24 Ultimate Team, including Evolutions, women's football, PlayStyles, and more. Pre-order now: ...",
+                "embedUrl": "https://www.youtube.com/embed/21Zxl8EL5ag"
+            },
+            {
+                "@type": "VideoObject",
+                "name": "EA SPORTS FC 24 | Official Matchday Experience Deep Dive",
+                "url": "https://youtube.com/watch?v=63BIm4JRL7c",
+                "uploadDate": "2023-08-04T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/63BIm4JRL7c/hqdefault.jpg",
+                "description": "FC24 brings your matchday experience even closer to the real thing with SAPIEN Technology, a new gameplay camera, new ...",
+                "embedUrl": "https://www.youtube.com/embed/63BIm4JRL7c"
+            }
+        ],
+        "publisher": [
+            {
+                "@type": "Organization",
+                "name": "Electronic Arts"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 80,
+            "bestRating": 100,
+            "worstRating": 0,
+            "reviewCount": 15,
+            "ratingCount": 15,
+            "name": "OpenCritic Rating",
+            "description": "The OpenCritic Rating system helps gamers know the level of quality to expect when playing a game. Using our \"Mighty Man,\" gamers can quickly see if a game is in the elite tier (Mighty), high quality (Strong), decent (Fair), or low quality (Weak)."
+        }
+    },
+    "offers": [
+        {
+            "price": 40.59,
+            "url": "https://cdkeys.pxf.io/c/4269744/1625375/18216?prodsku=D%2FEASPTFC24PC_EN&u=https%3A%2F%2Fwww.cdkeys.com%2Fea-sports-fc-24-pc-en-ea-play%3F__currency%3Deur&intsrc=CATF_12138&mw_aref=cdkeys-cheap&data1=b24749713eb05d16cc7c6d2f5d25eaa71b05c363&data2=",
+            "name": "CDKeys.com"
+        },
+        {
+            "price": 46.39,
+            "url": "https://cdkeys.pxf.io/c/4269744/1625375/18216?prodsku=D%2FEASPFC24PC&u=https%3A%2F%2Fwww.cdkeys.com%2Fea-sports-fc-24-pc-ea-play%3F__currency%3Deur&intsrc=CATF_12138&mw_aref=cdkeys-cheap&data1=3d810ada6a3cbd09748777c0c4a57209ee60eee9&data2=",
+            "name": "CDKeys.com"
+        },
+        {
+            "price": 47.21,
+            "url": "https://kinguin.net/en/category/171553/ea-sports-fc-24-pre-order-origin-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=1c23a7ec65b5576a72725e6d286638a7b699cdf6&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 48.11,
+            "url": "https://www.gamivo.com/product/ea-sports-fc-24-pc-eaapp-global-en-standard?glv=5piq6dd5",
+            "name": "Gamivo"
+        },
+        {
+            "price": 48.14,
+            "url": "https://kinguin.net/en/category/171577/ea-sports-fc-24-pre-order-eu-origin-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=07cd8e949947584f21ac6a5f1161151b5bae23cc&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 48.34,
+            "url": "https://kinguin.net/en/category/173186/ea-sports-fc-24-en-pl-languages-only-pre-order-origin-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=dc65121af519740e1c0955c0821f204d251f4d4c&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 52.89,
+            "url": "https://www.g2a.com/de-de/ea-sports-fc-24-pc-origin-key-global-i10000340096011?___currency=EUR&aid=13525485&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": 54.47,
+            "url": "https://www.g2a.com/de-de/ea-sports-fc-24-pc-origin-key-global-en-pl-cz-tr-i10000340096045?___currency=EUR&aid=13512141&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": 54.47,
+            "url": "https://www.g2a.com/de-de/ea-sports-fc-24-pc-origin-key-global-en-pl-i10000340096046?___currency=EUR&aid=13512140&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": 55.04,
+            "url": "https://www.g2a.com/de-de/ea-sports-fc-24-pc-origin-key-europe-i10000340096012?___currency=EUR&aid=13494871&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": 62.96,
+            "url": "https://kinguin.net/en/category/181553/ea-sports-fc-24-origin-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=3d4b45996f337668a9473a732a46cacc6a7fa89b&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 76.97,
+            "url": "https://kinguin.net/en/category/172384/ea-sports-fc-24-ultimate-edition-origin-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=89a80ec03f6267edec201dc04d03b97357ea8388&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 78.04,
+            "url": "https://www.g2a.com/de-de/ea-sports-fc-24-pc-steam-key-global-i10000340096001?___currency=EUR&aid=13523093&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": 85.35,
+            "url": "https://www.gamivo.com/product/ea-sports-fc-24-pc-eaapp-global-en-ultimate?glv=5piq6dd5",
+            "name": "Gamivo"
+        },
+        {
+            "price": 86.99,
+            "url": "https://www.g2a.com/de-de/ea-sports-fc-24-ultimate-edition-pc-origin-key-global-i10000340096009?___currency=EUR&aid=13525035&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": 96.95,
+            "url": "https://www.g2a.com/de-de/ea-sports-fc-24-ultimate-edition-pre-purchase-pc-origin-key-global-i10000340096037?___currency=EUR&aid=13503874&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": 97.37,
+            "url": "https://www.g2a.com/de-de/ea-sports-fc-24-ultimate-edition-pc-origin-key-europe-i10000340096010?___currency=EUR&aid=13525179&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": 99.73,
+            "url": "https://kinguin.net/en/category/186805/ea-sports-fc-24-ultimate-edition-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=be122af9bf41a28d9ba8e0da227730d5f4ac267a&data2=",
+            "name": "Kinguin"
+        }
+    ]
+}

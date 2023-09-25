@@ -1,0 +1,265 @@
+{
+    "data": {
+        "@context": "http://schema.org",
+        "@type": "VideoGame",
+        "applicationCategory": "Game",
+        "url": "/game/15193/payday-3",
+        "dateCreated": "2023-07-06T16:08:11.762Z",
+        "name": "PAYDAY 3",
+        "gamePlatform": [
+            "PC",
+            "PlayStation 5",
+            "Xbox Series X/S"
+        ],
+        "description": "PAYDAY 3 is the much anticipated sequel to one of the most popular co-op shooters ever. Since its release, PAYDAY-players have been reveling in the thrill of a perfectly planned and executed heist. That’s what makes PAYDAY a high-octane, co-op FPS experience without equal.\n\nStep out of retirement back into the life of crime in the shoes of the Payday Gang, the envy of their peers and the nightmare of law-enforcement wherever they go. Several years after the crew’s reign of terror over Washington DC has ended, they assemble once again to deal with the threat that roused them out of early retirement.\n\nThe legendary Payday Crew, dreaded by the law and underworld alike, is back. Ripped from their peaceful retirement to rejoin the criminal world by a new threat, one born from the chaos the Crew left in their wake.\n\nIn order to identify and crush this new threat, the Crew is leaving their Washington DC roots behind them and moving to New York City. A new location will bring with it new challenges, but also new opportunities for a heister with a plan.\n\nGive outlet to your greed and let loose in PAYDAY 3. In addition to gold, cash and jewelry and any other valuables they might come across, you’ll be able to build a sizable collection of weapons, cosmetics and accolades.\n\nIt won’t be as simple as showing up and gaining goodies. You’ll have to work hard and plan smart to get away with as much loot as possible. Gain experience, unlock new skills and gain proficiency in weapons to steadily grow your power to handle the tougher challenges.\n\nA professional heister knows it takes planning, hard work and a good amount of luck in order to execute a successful heist. In PAYDAY 3 the choice is put in the hands of the players, deciding how to tackle the heist, whether you sneak or go in guns blazing, whether you let your hostages go or keep them around as pawns, whether you go at it alone or bring friends. The choices are endless and in your hands, they will vastly change how the game plays.\n\nNot just anyone is worthy of standing at your side for something as important as a heist. Likewise, PAYDAY 3 is best enjoyed with close friends in mind, whether you bring them from your childhood or make them along the road.\n\nThe PAYDAY-series has always valued the bonds made through hardship and tries to reflect that in the actions and words of our heisters while in the game, and through our community while on the outside.",
+        "operatingSystem": [
+            "PC",
+            "PlayStation 5",
+            "Xbox Series X/S"
+        ],
+        "genre": [
+            "Action",
+            "First-Person Shooter"
+        ],
+        "datePublished": "2023-09-21T00:00:00.000Z",
+        "image": "https://img.opencritic.com/game/15193/o/pkycWo8q.jpg",
+        "dateModified": "2023-09-24T00:00:00.000Z",
+        "screenshot": [
+            {
+                "@type": "ImageObject",
+                "caption": "PAYDAY 3 Box Art",
+                "contentUrl": "https://img.opencritic.com/game/15193/o/pkycWo8q.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "PAYDAY 3 Square"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "PAYDAY 3 Masthead",
+                "contentUrl": "https://img.opencritic.com/game/15193/7YkKQkrv.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "PAYDAY 3 Screenshot 1",
+                "thumbnailUrl": "https://img.opencritic.com/game/15193/kiwPOfIi.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15193/o/nSiZ0wMr.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "PAYDAY 3 Screenshot 2",
+                "thumbnailUrl": "https://img.opencritic.com/game/15193/zVkMQCTS.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15193/o/tzQG6ewq.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "PAYDAY 3 Screenshot 3",
+                "thumbnailUrl": "https://img.opencritic.com/game/15193/cT20DxUh.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15193/o/GYoNJnQl.jpg"
+            }
+        ],
+        "trailer": [
+            {
+                "@type": "VideoObject",
+                "name": "PAYDAY 3: Gameplay Trailer",
+                "url": "https://youtube.com/watch?v=dc5gw3ctb0o",
+                "uploadDate": "2023-06-12T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/dc5gw3ctb0o/hqdefault.jpg",
+                "description": "It is with great excitement that we present this first look at the gameplay of PAYDAY 3. This gameplay trailer takes place at a ...",
+                "embedUrl": "https://www.youtube.com/embed/dc5gw3ctb0o"
+            },
+            {
+                "@type": "VideoObject",
+                "name": "PAYDAY 3 Teaser Trailer",
+                "url": "https://youtube.com/watch?v=_p5mip1Msbk",
+                "uploadDate": "2023-05-08T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/_p5mip1Msbk/hqdefault.jpg",
+                "description": "The Gameplay trailer for PAYDAY 3 is coming this summer, make sure to sign up for our newsletter and subscribe to our YouTube ...",
+                "embedUrl": "https://www.youtube.com/embed/_p5mip1Msbk"
+            }
+        ],
+        "author": [
+            {
+                "@type": "Organization",
+                "name": "Starbreeze Studios"
+            }
+        ],
+        "publisher": [
+            {
+                "@type": "Organization",
+                "name": "Deep Silver"
+            },
+            {
+                "@type": "Organization",
+                "name": "PLAION"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 68,
+            "bestRating": 100,
+            "worstRating": 0,
+            "reviewCount": 21,
+            "ratingCount": 21,
+            "name": "OpenCritic Rating",
+            "description": "The OpenCritic Rating system helps gamers know the level of quality to expect when playing a game. Using our \"Mighty Man,\" gamers can quickly see if a game is in the elite tier (Mighty), high quality (Strong), decent (Fair), or low quality (Weak)."
+        }
+    },
+    "offers": [
+        {
+            "price": 29.08,
+            "url": "https://www.gamivo.com/product/payday-3?glv=5piq6dd5",
+            "name": "Gamivo"
+        },
+        {
+            "price": 30.77,
+            "url": "https://kinguin.net/en/category/181519/payday-3-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=6c68830e4d9a6e4ce596951aa6886ffea8b522a7&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 31.98,
+            "url": "https://k4g.com/product/payday-3-steam-global-instant-cd-key-standard-edition-cd-key-B81F9B1C?data1=15b4ac4bf708bb4e44b4351f8d4de47f7a699a6f&data2=",
+            "name": "K4G"
+        },
+        {
+            "price": 34.47,
+            "url": "https://www.hrkgame.com/en/games/product/payday-3?data1=bb7c8405af68c3a5dfaff1fa41dc1b6e3f03c5c5&data2=",
+            "name": "HRK Game"
+        },
+        {
+            "price": 34.53,
+            "url": "https://www.g2a.com/de-de/payday-3-pc-steam-key-global-i10000339647001?___currency=EUR&aid=13524705&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": 34.79,
+            "url": "https://kinguin.net/en/category/181520/payday-3-eu-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=5ad574b40ca95d845263748eb9ba951be290845f&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 37.21,
+            "url": "https://www.g2a.com/de-de/payday-3-pc-steam-key-europe-i10000339647002?___currency=EUR&aid=13524704&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": 41.81,
+            "url": "https://kinguin.net/en/category/166960/payday-3-pre-order-edition-steam-altergift?nosalesbooster=1&currency=EUR&noff=1&data1=c980556f500c7bf6c4916c4a8500571e10aa057f&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 49.99,
+            "url": "https://www.eneba.com/steam-payday-3-silver-edition-pc-steam-key-global?currency=EUR",
+            "name": "Eneba"
+        },
+        {
+            "price": 50.19,
+            "url": "https://www.gamivo.com/product/payday-3-steam-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-tr-zh-silver-pc?glv=5piq6dd5",
+            "name": "Gamivo"
+        },
+        {
+            "price": 50.21,
+            "url": "https://kinguin.net/en/category/181522/payday-3-silver-edition-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=e5bb54ae5f60ebad58f8b441412a40a435e638e2&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 51.99,
+            "url": "https://k4g.com/product/payday-3-steam-global-instant-account-silver-edition-cd-key-220CE887?data1=b6d09f37241a5d2c7da243426e10bdf95539232a&data2=",
+            "name": "K4G"
+        },
+        {
+            "price": 54.82,
+            "url": "https://www.g2a.com/de-de/payday-3-silver-edition-pc-steam-key-global-i10000339647005?___currency=EUR&aid=13522968&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": 55.98,
+            "url": "https://www.hrkgame.com/en/games/product/payday-3-silver-edition?data1=3d37eb6258b78ed726175dde9bfac83f170c8b5b&data2=",
+            "name": "HRK Game"
+        },
+        {
+            "price": 63.75,
+            "url": "https://www.hrkgame.com/en/games/product/payday-3-gold-edition?data1=deb02a130b1333b0b475060019414a15005313f8&data2=",
+            "name": "HRK Game"
+        },
+        {
+            "price": 64.7,
+            "url": "https://kinguin.net/en/category/181525/payday-3-gold-edition-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=eff8db555c07cb0938f60ef9b74f555dab1e05bd&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 65.57,
+            "url": "https://kinguin.net/en/category/183998/payday-3-gold-edition-epic-games-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=5d94f7deba7e734863565ca37779a82fdf7d77eb&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 65.58,
+            "url": "https://www.eneba.com/steam-payday-3-gold-edition-pc-steam-key-global?currency=EUR",
+            "name": "Eneba"
+        },
+        {
+            "price": 66.26,
+            "url": "https://kinguin.net/en/category/185975/payday-3-gold-edition-eu-steam-cd-key?nosalesbooster=1&currency=EUR&noff=1&data1=dae05df10020c3789ca377b4dcb8f1024ef523a0&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 66.99,
+            "url": "https://k4g.com/product/payday-3-steam-global-instant-cd-key-gold-edition-cd-key-4EC3F2C6?data1=5ae476785a88ced3847694233ca510aa86f6dfee&data2=",
+            "name": "K4G"
+        },
+        {
+            "price": 67.04,
+            "url": "https://www.gamivo.com/product/payday-3-steam-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-tr-zh-gold-pc?glv=5piq6dd5",
+            "name": "Gamivo"
+        },
+        {
+            "price": 71.99,
+            "url": "https://www.g2a.com/de-de/payday-3-gold-edition-pc-steam-key-global-i10000339647009?___currency=EUR&aid=13522967&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": 73.32,
+            "url": "https://www.g2a.com/de-de/payday-3-gold-edition-pc-steam-key-europe-i10000339647010?___currency=EUR&aid=13523175&gtag=794e5933ae&utm_campaign=COM_GLOBAL_PB_DIGI_GAM_LISTING_NOR_cdkeyscheap&utm_medium=price_comparison&utm_source=cdkeyscheap",
+            "name": "G2A"
+        },
+        {
+            "price": 73.83,
+            "url": "https://www.hrkgame.com/en/games/product/payday-3-gold-edition-europe?data1=02af0ca64f78b2bac9a4db17186e031b6f973edd&data2=",
+            "name": "HRK Game"
+        },
+        {
+            "price": 75.61,
+            "url": "https://www.gamivo.com/product/payday-3-steamgift-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-tr-zh-silver-pc?glv=5piq6dd5",
+            "name": "Gamivo"
+        },
+        {
+            "price": 75.8,
+            "url": "https://kinguin.net/en/category/166959/payday-3-silver-edition-steam-altergift?nosalesbooster=1&currency=EUR&noff=1&data1=82a6ec5f22c7f6026764269d7be387d09794c938&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 78.41,
+            "url": "https://k4g.com/product/payday-3-steam-global-instant-altergift-silver-edition-gift-F506D5ED?data1=39ee79113cd8e5bd187383e764f689f8f77bb0a7&data2=",
+            "name": "K4G"
+        },
+        {
+            "price": 89.99,
+            "url": "https://www.tkqlhce.com/click-100127123-13674779?url=https%3A%2F%2Fwww.fanatical.com%2Fen%2Fgame%2Fpayday-3-gold-edition",
+            "name": "Fanatical"
+        },
+        {
+            "price": 99.63,
+            "url": "https://www.gamivo.com/product/payday-3-steamgift-global-en-de-fr-it-pl-ja-ko-pt-ru-zh-es-tr-zh-gold-pc?glv=5piq6dd5",
+            "name": "Gamivo"
+        },
+        {
+            "price": 99.89,
+            "url": "https://kinguin.net/en/category/166961/payday-3-gold-edition-steam-altergift?nosalesbooster=1&currency=EUR&noff=1&data1=8f67664ec39afe4c1f5e1cbb954e4d112fb5514b&data2=",
+            "name": "Kinguin"
+        },
+        {
+            "price": 103,
+            "url": "https://k4g.com/product/payday-3-steam-global-instant-altergift-gold-edition-gift-EE301767?data1=b3a207e04d243c91ad42eb04c37e0a7a31ce17fb&data2=",
+            "name": "K4G"
+        }
+    ]
+}

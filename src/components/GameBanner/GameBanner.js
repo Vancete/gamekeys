@@ -1,6 +1,7 @@
+import { CartIcon } from '../Icons/cart-icon'
 import './GameBanner.scss'
 
-export const GameBanner = ({ title, company, masthead, image, description, ...props }) => {
+export const GameBanner = ({ title, company, masthead, image, description, offers, ...props }) => {
     return (
         <div className="game-banner">
             <div className="game-bg" style={{ backgroundImage: `url(${masthead})` }}></div>
@@ -10,6 +11,10 @@ export const GameBanner = ({ title, company, masthead, image, description, ...pr
                     <div className="title">
                         <h1>{title}</h1>
                         <h2>{company}</h2>
+                    </div>
+                    <div className="buy">
+                        <CartIcon />
+                        <label>{offers[0].price}</label>
                     </div>
                 </div>
             </div>

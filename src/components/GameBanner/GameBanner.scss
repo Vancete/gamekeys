@@ -10,7 +10,7 @@
         @apply flex justify-center bg-black text-white;
 
         .content {
-            @apply relative flex w-full;
+            @apply relative flex items-center w-full;
 
             max-width: 1400px;
 
@@ -33,6 +33,34 @@
 
                 h2 {
                     @apply text-2xl;
+                }
+            }
+
+            .buy {
+                @apply flex items-center p-4 rounded-lg h-max bg-white text-black text-3xl font-semibold ml-auto cursor-pointer;
+
+                transition: all 0.1s;
+
+                &:hover {
+                    @apply text-white;
+
+                    background-color: #ff459a;
+
+                    svg {
+                        path {
+                            @apply stroke-white;
+                        }
+                    }
+                }
+
+                label {
+                    @apply relative flex items-center ml-2 mr-6 cursor-pointer;
+
+                    &::after {
+                        @apply absolute font-semibold text-2xl;
+                        content: '€';
+                        right: -18px;
+                    }
                 }
             }
         }

@@ -1,0 +1,130 @@
+{
+    "data": {
+        "@context": "http://schema.org",
+        "@type": "VideoGame",
+        "applicationCategory": "Game",
+        "url": "/game/15493/the-crew-motorfest",
+        "dateCreated": "2023-09-14T01:24:14.137Z",
+        "name": "The Crew Motorfest",
+        "gamePlatform": [
+            "Xbox Series X/S",
+            "PlayStation 5",
+            "PC",
+            "Xbox One",
+            "PlayStation 4"
+        ],
+        "description": "Welcome to Motorfest! This all-year-round festival will let you enjoy the best experiences car culture has to offer.\n\nEXPLORE A VIBRANT HAWAIIAN OPEN WORLD\nThe Crew Motorfest has settled down in one of the most breathtaking places on Earth: the island of O‘ahu, Hawaii. Join high-speed street races through the bustling city of Honolulu, test your skills off-road on the ashy slopes of a volcano, or master the perfect curve on the tracks.\n\nCELEBRATE ALL THE FACETS OF CAR CULTURE\nEnjoy a variety of thrilling driving activities and choose how you want to have fun with your cars! Discover the playlists and dive into thematic campaigns that will immerse you in the most exciting car culture universes, including American muscle, Japanese-style street racing, and legendary machines of the past!\n\nCOLLECT THE MOST LEGENDARY CARS\nCompete in intense driving races, show off your own style, collect the most iconic cars, and much more! Master every driving challenge and fill your collection with the most legendary vehicles ever created.",
+        "operatingSystem": [
+            "Xbox Series X/S",
+            "PlayStation 5",
+            "PC",
+            "Xbox One",
+            "PlayStation 4"
+        ],
+        "genre": [
+            "Sports",
+            "Action",
+            "Racing"
+        ],
+        "datePublished": "2023-09-14T00:00:00.000Z",
+        "image": "https://img.opencritic.com/game/undefined/o/ojTfZvSr.jpg",
+        "dateModified": "2023-09-25T00:00:00.000Z",
+        "screenshot": [
+            {
+                "@type": "ImageObject",
+                "caption": "The Crew Motorfest Box Art",
+                "contentUrl": "https://img.opencritic.com/game/undefined/o/ojTfZvSr.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "The Crew Motorfest Square"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "The Crew Motorfest Logo",
+                "contentUrl": "https://img.opencritic.com/game/15493/o/MW2RDSRE.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "The Crew Motorfest Masthead",
+                "contentUrl": "https://img.opencritic.com/game/undefined/biqKehZj.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "The Crew Motorfest Screenshot 1",
+                "thumbnailUrl": "https://img.opencritic.com/game/15493/6OSX7M9r.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15493/o/PHIB6G5H.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "The Crew Motorfest Screenshot 2",
+                "thumbnailUrl": "https://img.opencritic.com/game/15493/DHQ9N8d2.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15493/o/qFljvHQ9.jpg"
+            },
+            {
+                "@type": "ImageObject",
+                "caption": "The Crew Motorfest Screenshot 3",
+                "thumbnailUrl": "https://img.opencritic.com/game/15493/IQYCeZnV.jpg",
+                "contentUrl": "https://img.opencritic.com/game/15493/o/Oyd5JsaP.jpg"
+            }
+        ],
+        "trailer": [
+            {
+                "@type": "VideoObject",
+                "name": "The Crew Motorfest: Live Action Launch Trailer",
+                "url": "https://youtube.com/watch?v=ugKIELPN8mI",
+                "uploadDate": "2023-09-11T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/ugKIELPN8mI/hqdefault.jpg",
+                "description": "Join us in celebrating #TheCrewMotorfest's launch week with our exclusive Live Action Launch Trailer. Follow the Lamborghini ...",
+                "embedUrl": "https://www.youtube.com/embed/ugKIELPN8mI"
+            },
+            {
+                "@type": "VideoObject",
+                "name": "The Crew Motorfest: Launch Gameplay Trailer | Opening Night Live",
+                "url": "https://youtube.com/watch?v=kpVfIqxsE24",
+                "uploadDate": "2023-08-22T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/kpVfIqxsE24/hqdefault.jpg",
+                "description": "Pre-order available now: https://ubi.li/2i0dp Play 3 days early with the Gold or Ultimate Edition, or by subscribing to Ubisoft+.",
+                "embedUrl": "https://www.youtube.com/embed/kpVfIqxsE24"
+            },
+            {
+                "@type": "VideoObject",
+                "name": "The Crew Motorfest: Gameplay Premiere Trailer | Ubisoft Forward",
+                "url": "https://youtube.com/watch?v=QuvaE7VhhjY",
+                "uploadDate": "2023-06-12T00:00:00.000Z",
+                "thumbnailUrl": "https://img.youtube.com/vi/QuvaE7VhhjY/hqdefault.jpg",
+                "description": "Pre-order available now: https://store.ubisoft.com/63bc67dbd406ab22f1174305.html It's official: The Crew Motorfest is out on ...",
+                "embedUrl": "https://www.youtube.com/embed/QuvaE7VhhjY"
+            }
+        ],
+        "author": [
+            {
+                "@type": "Organization",
+                "name": "Ivory Tower"
+            }
+        ],
+        "publisher": [
+            {
+                "@type": "Organization",
+                "name": "Ubisoft"
+            }
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 78,
+            "bestRating": 100,
+            "worstRating": 0,
+            "reviewCount": 52,
+            "ratingCount": 52,
+            "name": "OpenCritic Rating",
+            "description": "The OpenCritic Rating system helps gamers know the level of quality to expect when playing a game. Using our \"Mighty Man,\" gamers can quickly see if a game is in the elite tier (Mighty), high quality (Strong), decent (Fair), or low quality (Weak)."
+        }
+    },
+    "offers": [
+        {
+            "price": 61.41,
+            "url": "https://www.gamivo.com/product/the-crew-motorfest-pc-ubisoftconnect-eu-en-de-fr-it-pl-ja-pt-ru-zh-es-zh-standard?glv=5piq6dd5",
+            "name": "Gamivo"
+        }
+    ]
+}
