@@ -1,5 +1,5 @@
 .game-card {
-    @apply flex flex-col rounded-3xl overflow-hidden cursor-pointer;
+    @apply flex flex-1 flex-col rounded-3xl overflow-hidden cursor-pointer;
 
     &:hover {
         .image {
@@ -16,6 +16,7 @@
             @apply w-full h-full bg-cover bg-center;
 
             transition: transform 0.25s;
+            padding-bottom: 54%;
         }
     }
 
@@ -33,12 +34,12 @@
 
             &::after {
                 @apply absolute right-2 text-black font-semibold text-base;
-                content: '€'
+                content: '€';
             }
 
             &.free {
                 @apply pr-2;
-                
+
                 &::after {
                     content: none;
                 }

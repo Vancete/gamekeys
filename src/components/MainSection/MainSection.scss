@@ -9,8 +9,11 @@
         @apply flex justify-between;
 
         .game-card {
-            width: calc(20% - 16px);
-            height: 200px;
+            margin-right: 20px;
+
+            &:last-of-type {
+                @apply mr-0;
+            }
         }
     }
 }

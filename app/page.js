@@ -62,6 +62,11 @@ export default function Home() {
             <MainBanner />
             <main>
                 <MainSection title="Most popular" icon={<StarIcon />}>
+                    {newReleases.slice(0, 3).map((item) => (
+                        <GameCard key={item.title} title={item.title} image={item.image} price={item.price} />
+                    ))}
+                </MainSection>
+                <MainSection>
                     {popularGames.map((item) => (
                         <GameCard key={item.title} title={item.title} image={item.image} price={item.price} />
                     ))}
