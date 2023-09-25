@@ -6,6 +6,15 @@ export const cleanFileName = (fileName) => {
     return cleanName
 }
 
-export const addToFav = (data) => {
-    localStorage.setItem(cleanFileName(data.title), JSON.stringify(data))
+export const editFavGames = (data) => {
+
+    let favGames = JSON.parse(localStorage.getItem("favGames")) || []
+
+    if ( favGames.some( game => game.title === data.title) ) {
+        const newFavGames = favGames.filter(game => game.title !== data.title)
+        localStorage.setItem(("favGames"), JSON.stringify(newFavGames))
+        return
+    }
+
+    localStorage.setItem(("favGames"), JSON.stringify([...favGames, data]))
 }

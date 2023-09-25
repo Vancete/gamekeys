@@ -1,6 +1,6 @@
 'use client'
 
-import { addToFav } from '@/src/utils/utils'
+import { editFavGames } from '@/src/utils/utils'
 import { CartIcon } from '../Icons/cart-icon'
 import { HeartIcon } from '../Icons/heart-icon'
 import './GameBanner.scss'
@@ -20,7 +20,7 @@ export const GameBanner = ({ title, company, masthead, image, description, offer
                         <CartIcon />
                         <label>{offers[0].price}</label>
                     </div>
-                    <div className="fav" onClick={() => addToFav({title, image})}>
+                    <div className="fav" onClick={() => editFavGames({title, image})}>
                         <HeartIcon />
                     </div>
                 </div>
