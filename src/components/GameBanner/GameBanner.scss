@@ -20,6 +20,7 @@
                 width: 20%;
                 aspect-ratio: 2/3;
                 box-shadow: 0 0 16px 0px #00000052;
+                background-color: #232323;
             }
 
             .title {
@@ -33,6 +34,8 @@
 
                 h2 {
                     @apply text-2xl;
+
+                    margin-left: 2px;
                 }
             }
 
@@ -63,6 +66,32 @@
                     }
                 }
             }
+
+            .fav {
+                @apply p-4 ml-4 rounded-lg cursor-pointer;
+
+                background-color: #ff459a;
+                transition: all 0.1s;
+
+                &:hover {
+                    @apply bg-white;
+
+                    svg {
+                        path {
+                            fill: #ff459a;
+                        }
+                    }
+                }
+
+                svg {
+                    width: 36px;
+                    height: 36px;
+
+                    path {
+                        @apply fill-white;
+                    }
+                }
+            }
         }
     }
 
@@ -70,7 +99,14 @@
         @apply flex justify-center bg-white text-black text-lg py-8 text-justify;
 
         p {
-            max-width: 1400px;
+            max-width: calc(1400px - 120px - 32px);
+        }
+
+        .score {
+            @apply flex justify-center items-center text-white text-5xl font-semibold rounded-lg ml-8;
+
+            width: 120px;
+            height: 120px;
         }
     }
 }

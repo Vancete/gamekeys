@@ -15,6 +15,7 @@ export default function Page({ params }) {
     const mastheadImage = gameData.screenshot.filter((item) => item.caption.toLowerCase().indexOf('masthead') > -1)[0]
         .contentUrl
     const description = gameData.description
+    const rating = gameData.aggregateRating.ratingValue
 
     return (
         <>
@@ -26,6 +27,7 @@ export default function Page({ params }) {
                 image={mainImage}
                 description={description}
                 offers={sortedOffers}
+                rating={rating}
             />
             <main></main>
             <Footer />
