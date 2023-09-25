@@ -1,0 +1,12 @@
+.title-bubble {
+    @apply w-max flex items-center p-4 pr-5 bg-white rounded-full font-semibold;
+    color: #232323;
+
+    svg {
+        @apply w-5 h-5 mr-2;
+
+        path {
+            fill: #232323;
+        }
+    }
+}

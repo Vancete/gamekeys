@@ -1,17 +1,8 @@
 .main-section {
     @apply flex flex-col w-full mb-9;
 
-    .title {
-        @apply w-max flex items-center p-4 pr-5 mb-5 bg-white rounded-full font-semibold;
-        color: #232323;
-
-        svg {
-            @apply w-5 h-5 mr-2;
-
-            path {
-                fill: #232323;
-            }
-        }
+    .title-bubble {
+        @apply mb-5;
     }
 
     .content {

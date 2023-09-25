@@ -1,0 +1,11 @@
+.offers {
+    @apply mb-8;
+
+    h3 {
+        @apply uppercase font-semibold text-4xl mb-4;
+    }
+
+    .game-offer {
+        @apply mb-3;
+    }
+}

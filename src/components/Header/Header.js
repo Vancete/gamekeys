@@ -4,6 +4,10 @@ import { SearchIcon } from '../Icons/search-icon'
 import { HeartIcon } from '../Icons/heart-icon'
 import Image from 'next/image'
 import Link from 'next/link'
+import { TitleBubble } from '../TitleBubble/TitleBubble'
+import { StarIcon } from '../Icons/star-icon'
+import { SparkIcon } from '../Icons/spark-icon'
+import { PiggyIcon } from '../Icons/piggy-icon'
 
 export const Header = () => {
     return (
@@ -29,7 +33,11 @@ export const Header = () => {
                     </div>
                 </div>
             </div>
-            <div className="header-menu"></div>
+            <div className="header-menu">
+                <TitleBubble icon={<StarIcon />} title="Most popular" />
+                <TitleBubble icon={<SparkIcon />} title="New releases" />
+                <TitleBubble icon={<PiggyIcon />} title="Free to play" />
+            </div>
         </header>
     )
 }

@@ -1,6 +1,12 @@
+import './page.scss'
+
 import { Footer } from '@/src/components/Footer/Footer'
 import { GameBanner } from '@/src/components/GameBanner/GameBanner'
+import { GameCard } from '@/src/components/GameCard/GameCard'
+import { GameOffer } from '@/src/components/GameOffer/GameOffer'
 import { Header } from '@/src/components/Header/Header'
+import { StarIcon } from '@/src/components/Icons/star-icon'
+import { MainSection } from '@/src/components/MainSection/MainSection'
 
 export default function Page({ params }) {
     const id = params.id
@@ -17,6 +23,22 @@ export default function Page({ params }) {
     const description = gameData.description
     const rating = gameData.aggregateRating.ratingValue
 
+    const popularGames = [
+        { title: 'Starfield', image: 'https://img.opencritic.com/game/14907/YGJBcWFc.jpg', price: 45 },
+        {
+            title: 'Cyberpunk 2077: Phantom Liberty',
+            image: 'https://img.opencritic.com/game/15196/fkFeB1Fg.jpg',
+            price: 27,
+        },
+        { title: 'Lies of P', image: 'https://img.opencritic.com/game/15437/WfcS2Ver.jpg', price: 40 },
+        { title: 'Sea of Stars', image: 'https://img.opencritic.com/game/15003/cfvJYxOD.jpg', price: 16 },
+        {
+            title: 'The Legend of Zelda: Tears of the Kingdom',
+            image: 'https://img.opencritic.com/game/14343/5f92uzHj.jpg',
+            price: 49,
+        },
+    ]
+
     return (
         <>
             <Header />
@@ -29,7 +51,19 @@ export default function Page({ params }) {
                 offers={sortedOffers}
                 rating={rating}
             />
-            <main></main>
+            <main>
+                <div className="offers">
+                    <h3>Best offers</h3>
+                    {sortedOffers.map((offer, index) => (
+                        <GameOffer key={index} offer={offer} />
+                    ))}
+                </div>
+                <MainSection title="Most popular" icon={<StarIcon />}>
+                    {popularGames.map((item) => (
+                        <GameCard key={item.title} title={item.title} image={item.image} price={item.price} />
+                    ))}
+                </MainSection>
+            </main>
             <Footer />
         </>
     )

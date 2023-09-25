@@ -54,7 +54,7 @@ header {
     }
 
     .header-menu {
-        @apply bg-white w-full;
+        @apply flex justify-center items-center bg-white w-full;
         min-height: 72px;
     }
 }

@@ -34,7 +34,7 @@ export const MainBanner = () => {
                         The best <b>games</b>
                     </span>
                     <span>
-                        at best <b>prices</b>
+                        at better <b>prices</b>
                     </span>
                 </h1>
                 <h2>

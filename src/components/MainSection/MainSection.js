@@ -1,12 +1,10 @@
+import { TitleBubble } from '../TitleBubble/TitleBubble'
 import './MainSection.scss'
 
 export const MainSection = ({ title, icon, children, ...props }) => {
     return (
         <div className="main-section">
-            <div className="title">
-                {icon}
-                {title}
-            </div>
+            <TitleBubble title={title} icon={icon} />
             <div className="content">{children}</div>
         </div>
     )
