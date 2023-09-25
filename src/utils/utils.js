@@ -5,3 +5,7 @@ export const cleanFileName = (fileName) => {
 
     return cleanName
 }
+
+export const addToFav = (data) => {
+    localStorage.setItem(cleanFileName(data.title), JSON.stringify(data))
+}
