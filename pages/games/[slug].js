@@ -7,9 +7,8 @@ import { GameOffer } from '@/src/components/GameOffer/GameOffer'
 import { Header } from '@/src/components/Header/Header'
 import { StarIcon } from '@/src/components/Icons/star-icon'
 import { MainSection } from '@/src/components/MainSection/MainSection'
-import { useEffect, useState } from 'react'
 
-export default function Page({ gameData, offers, ...props }) {
+export default function Page({ gameData, offers, favs, setFavs, ...props }) {
     const sortedOffers = offers.sort((a, b) => a.price - b.price)
 
     const title = gameData.name
@@ -36,14 +35,6 @@ export default function Page({ gameData, offers, ...props }) {
             price: 49,
         },
     ]
-
-    const [favs, setFavs] = useState([])
-
-    useEffect(() => {
-        const favGames = JSON.parse(localStorage.getItem('favGames'))
-
-        setFavs(favGames)
-    }, [])
 
     return (
         <>

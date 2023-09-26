@@ -6,7 +6,7 @@
     .content {
         @apply absolute flex items-center h-full w-full;
         max-width: 1400px;
-        animation: move-right 1.5s forwards;
+        animation: move-right 1s forwards;
 
         h1 {
             @apply absolute text-white flex flex-col;
@@ -28,13 +28,23 @@
     .back {
         @apply absolute right-0;
         height: 110%;
+        animation: fade-in 1s forwards;
     }
 
     .front {
         @apply absolute right-0;
         height: 110%;
         margin-right: 12.5%;
-        animation: move-up 1.5s forwards;
+        animation: move-up 1s forwards;
+    }
+
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
     }
 
     @keyframes move-right {
