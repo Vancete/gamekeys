@@ -1,5 +1,4 @@
-'use client'
-
+import { useRouter } from 'next/router'
 import './page.scss'
 
 import { Footer } from '@/src/components/Footer/Footer'
@@ -11,18 +10,8 @@ import { StarIcon } from '@/src/components/Icons/star-icon'
 import { MainSection } from '@/src/components/MainSection/MainSection'
 import { useEffect, useState } from 'react'
 
-export async function generateStaticParams() {
-    const posts = [{}]
-
-    return posts.map(() => ({
-        id: 'starfield',
-    }))
-}
-
-export default function Page({ params }) {
-    const id = params.id
-    const gameData = require(`../../../data/${id}.json`).data
-    const offers = require(`../../../data/${id}.json`).offers
+export default function Page({ gameData, offers, ...props }) {
+    const router = useRouter()
     const sortedOffers = offers.sort((a, b) => a.price - b.price)
 
     const title = gameData.name
@@ -88,4 +77,24 @@ export default function Page({ params }) {
             <Footer />
         </>
     )
+}
+
+export const getStaticPaths = async () => {
+    const fs = require('node:fs')
+    const gameList = fs.readdirSync('./data')
+
+    return {
+        paths: gameList.map((game) => ({
+            params: {
+                slug: game.split('.')[0],
+            },
+        })),
+        fallback: false,
+    }
+}
+
+export const getStaticProps = async (context) => {
+    const gameData = require(`../../data/${context.params.slug}.json`).data
+    const offers = require(`../../data/${context.params.slug}.json`).offers
+    return { props: { gameData, offers } }
 }
