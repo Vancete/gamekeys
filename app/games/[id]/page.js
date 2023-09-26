@@ -1,3 +1,5 @@
+"use client"
+
 import './page.scss'
 
 import { Footer } from '@/src/components/Footer/Footer'
@@ -7,6 +9,7 @@ import { GameOffer } from '@/src/components/GameOffer/GameOffer'
 import { Header } from '@/src/components/Header/Header'
 import { StarIcon } from '@/src/components/Icons/star-icon'
 import { MainSection } from '@/src/components/MainSection/MainSection'
+import { useEffect, useState } from 'react'
 
 export default function Page({ params }) {
     const id = params.id
@@ -39,9 +42,18 @@ export default function Page({ params }) {
         },
     ]
 
+    const [favs, setFavs] = useState([])
+
+    useEffect(() => {
+      const favGames = JSON.parse(localStorage.getItem("favGames"))
+
+      setFavs(favGames)
+    
+    }, [])
+
     return (
         <>
-            <Header />
+            <Header favs={favs} />
             <GameBanner
                 title={title}
                 company={company}
@@ -50,6 +62,8 @@ export default function Page({ params }) {
                 description={description}
                 offers={sortedOffers}
                 rating={rating}
+                favs={favs}
+                setFavs={setFavs}
             />
             <main>
                 <div className="offers">

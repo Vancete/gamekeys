@@ -9,7 +9,7 @@ import { StarIcon } from '../Icons/star-icon'
 import { SparkIcon } from '../Icons/spark-icon'
 import { PiggyIcon } from '../Icons/piggy-icon'
 
-export const Header = () => {
+export const Header = ({favs}) => {
     return (
         <header>
             <div className="header-main">
@@ -27,7 +27,7 @@ export const Header = () => {
                     <input type="text" placeholder="Buscar"></input>
                 </form>
                 <div className="header-actions">
-                    <div className="action">
+                    <div className="action" onClick={() => console.log(favs)}>
                         <HeartIcon className="wishlist-icon" />
                         <label>Wish list</label>
                     </div>

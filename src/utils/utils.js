@@ -6,15 +6,15 @@ export const cleanFileName = (fileName) => {
     return cleanName
 }
 
-export const editFavGames = (data) => {
+export const editFavGames = (favs, data) => {
 
-    let favGames = JSON.parse(localStorage.getItem("favGames")) || []
-
-    if ( favGames.some( game => game.title === data.title) ) {
-        const newFavGames = favGames.filter(game => game.title !== data.title)
-        localStorage.setItem(("favGames"), JSON.stringify(newFavGames))
-        return
+    if ( favs.some( game => game.title === data.title) ) {
+        const newFavs = favs.filter(game => game.title !== data.title)
+        localStorage.setItem(("favGames"), JSON.stringify(newFavs))
+        return newFavs
     }
 
-    localStorage.setItem(("favGames"), JSON.stringify([...favGames, data]))
+    const newFavs = [...favs, data]
+    localStorage.setItem(("favGames"), JSON.stringify(newFavs))
+    return newFavs
 }

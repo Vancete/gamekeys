@@ -1,3 +1,5 @@
+"use client"
+
 import { Header } from '@/src/components/Header/Header'
 import { MainBanner } from '@/src/components/MainBanner/MainBanner'
 import { GameCard } from '@/src/components/GameCard/GameCard'
@@ -6,6 +8,7 @@ import { StarIcon } from '@/src/components/Icons/star-icon'
 import { SparkIcon } from '@/src/components/Icons/spark-icon'
 import { PiggyIcon } from '@/src/components/Icons/piggy-icon'
 import { Footer } from '@/src/components/Footer/Footer'
+import { useEffect, useState } from 'react'
 
 export default function Home() {
     const popularGames = [
@@ -56,9 +59,18 @@ export default function Home() {
         },
     ]
 
+    const [favs, setFavs] = useState([])
+
+    useEffect(() => {
+      const favGames = JSON.parse(localStorage.getItem("favGames"))
+
+      setFavs(favGames)
+    
+    }, [])
+
     return (
         <>
-            <Header />
+            <Header favs={favs} />
             <MainBanner />
             <main className="main-page">
                 <MainSection title="Most popular" icon={<StarIcon />}>
