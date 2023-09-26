@@ -19,5 +19,14 @@ export default function MyApp({ Component, pageProps }) {
         setFavs(favGames)
     }, [])
 
-    return <Component favs={favs} setFavs={setFavs} {...pageProps} />
+    return (
+        <>
+            <style jsx global>{`
+                html {
+                    font-family: ${inter.style.fontFamily};
+                }
+            `}</style>
+            <Component favs={favs} setFavs={setFavs} {...pageProps} />
+        </>
+    )
 }
