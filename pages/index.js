@@ -1,14 +1,11 @@
-import { Header } from '@/src/components/Header/Header'
 import { MainBanner } from '@/src/components/MainBanner/MainBanner'
 import { GameCard } from '@/src/components/GameCard/GameCard'
 import { MainSection } from '@/src/components/MainSection/MainSection'
 import { StarIcon } from '@/src/components/Icons/star-icon'
 import { SparkIcon } from '@/src/components/Icons/spark-icon'
 import { PiggyIcon } from '@/src/components/Icons/piggy-icon'
-import { Footer } from '@/src/components/Footer/Footer'
-import { useEffect, useState } from 'react'
 
-export default function Home() {
+export default function Home({ favs }) {
     const popularGames = [
         { title: 'Starfield', image: 'https://img.opencritic.com/game/14907/YGJBcWFc.jpg', price: 45 },
         {
@@ -57,17 +54,8 @@ export default function Home() {
         },
     ]
 
-    const [favs, setFavs] = useState([])
-
-    useEffect(() => {
-        const favGames = JSON.parse(localStorage.getItem('favGames'))
-
-        setFavs(favGames)
-    }, [])
-
     return (
         <>
-            <Header favs={favs} />
             <MainBanner />
             <main className="main-page">
                 <MainSection title="Most popular" icon={<StarIcon />}>
@@ -91,7 +79,6 @@ export default function Home() {
                     ))}
                 </MainSection>
             </main>
-            <Footer />
         </>
     )
 }

@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import './globals.scss'
 
 import { Inter } from 'next/font/google'
+import { Header } from '@/src/components/Header/Header'
+import { Footer } from '@/src/components/Footer/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,7 +16,7 @@ export default function MyApp({ Component, pageProps }) {
     const [favs, setFavs] = useState([])
 
     useEffect(() => {
-        const favGames = JSON.parse(localStorage.getItem('favGames'))
+        const favGames = JSON.parse(localStorage.getItem('favGames')) || []
 
         setFavs(favGames)
     }, [])
@@ -26,7 +28,9 @@ export default function MyApp({ Component, pageProps }) {
                     font-family: ${inter.style.fontFamily};
                 }
             `}</style>
+            <Header favs={favs} />
             <Component favs={favs} setFavs={setFavs} {...pageProps} />
+            <Footer />
         </>
     )
 }

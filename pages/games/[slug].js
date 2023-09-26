@@ -1,10 +1,8 @@
 import './page.scss'
 
-import { Footer } from '@/src/components/Footer/Footer'
 import { GameBanner } from '@/src/components/GameBanner/GameBanner'
 import { GameCard } from '@/src/components/GameCard/GameCard'
 import { GameOffer } from '@/src/components/GameOffer/GameOffer'
-import { Header } from '@/src/components/Header/Header'
 import { StarIcon } from '@/src/components/Icons/star-icon'
 import { MainSection } from '@/src/components/MainSection/MainSection'
 
@@ -38,7 +36,6 @@ export default function Page({ gameData, offers, favs, setFavs, ...props }) {
 
     return (
         <>
-            <Header favs={favs} />
             <GameBanner
                 title={title}
                 company={company}
@@ -63,7 +60,6 @@ export default function Page({ gameData, offers, favs, setFavs, ...props }) {
                     ))}
                 </MainSection>
             </main>
-            <Footer />
         </>
     )
 }
