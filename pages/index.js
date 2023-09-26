@@ -1,5 +1,3 @@
-"use client"
-
 import { Header } from '@/src/components/Header/Header'
 import { MainBanner } from '@/src/components/MainBanner/MainBanner'
 import { GameCard } from '@/src/components/GameCard/GameCard'
@@ -62,10 +60,9 @@ export default function Home() {
     const [favs, setFavs] = useState([])
 
     useEffect(() => {
-      const favGames = JSON.parse(localStorage.getItem("favGames"))
+        const favGames = JSON.parse(localStorage.getItem('favGames'))
 
-      setFavs(favGames)
-    
+        setFavs(favGames)
     }, [])
 
     return (

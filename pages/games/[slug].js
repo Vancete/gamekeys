@@ -1,4 +1,3 @@
-import { useRouter } from 'next/router'
 import './page.scss'
 
 import { Footer } from '@/src/components/Footer/Footer'
@@ -11,7 +10,6 @@ import { MainSection } from '@/src/components/MainSection/MainSection'
 import { useEffect, useState } from 'react'
 
 export default function Page({ gameData, offers, ...props }) {
-    const router = useRouter()
     const sortedOffers = offers.sort((a, b) => a.price - b.price)
 
     const title = gameData.name
