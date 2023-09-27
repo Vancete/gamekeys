@@ -27,7 +27,7 @@
 
     .back {
         @apply absolute right-0;
-        height: 110%;
+        height: 125%;
         animation: fade-in 1s forwards;
         clip-path: polygon(43% 0%, 100% 0%, 100% 100%, 0% 100%);
     }
@@ -35,7 +35,7 @@
     .front {
         @apply absolute right-0;
         height: 110%;
-        margin-right: 12.5%;
+        margin-right: 15%;
         animation: move-up 1s forwards;
     }
 

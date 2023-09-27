@@ -45,8 +45,8 @@ export const MainBanner = () => {
                 className="back"
                 src="main-banner-back.jpg"
                 style={{
-                    right: `${-mousePosition.x / 40}%`,
-                    bottom: `${-mousePosition.y / 40}%`,
+                    right: `${-mousePosition.x / 20}%`,
+                    bottom: `${-mousePosition.y / 20}%`,
                 }}
             ></img>
             <img
