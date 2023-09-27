@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 import './Header.scss'
 
 import { SearchIcon } from '../Icons/search-icon'
@@ -8,8 +10,12 @@ import { TitleBubble } from '../TitleBubble/TitleBubble'
 import { StarIcon } from '../Icons/star-icon'
 import { SparkIcon } from '../Icons/spark-icon'
 import { PiggyIcon } from '../Icons/piggy-icon'
+import WishList from '../WishList/Wishlist'
 
 export const Header = ({favs}) => {
+
+    const [showWishList, setShowWishList] = useState(false)
+
     return (
         <header>
             <div className="header-main">
@@ -27,7 +33,7 @@ export const Header = ({favs}) => {
                     <input type="text" placeholder="Buscar"></input>
                 </form>
                 <div className="header-actions">
-                    <div className="action" onClick={() => console.log(favs)}>
+                    <div className="action" onClick={() => setShowWishList(!showWishList)}>
                         <HeartIcon className="wishlist-icon" />
                         <label>Wish list</label>
                     </div>
@@ -37,6 +43,7 @@ export const Header = ({favs}) => {
                 <TitleBubble icon={<StarIcon />} title="Most popular" />
                 <TitleBubble icon={<SparkIcon />} title="New releases" />
                 <TitleBubble icon={<PiggyIcon />} title="Free to play" />
+                {showWishList && <WishList favs={favs} />}
             </div>
         </header>
     )

@@ -29,7 +29,7 @@ export const GameBanner = ({
                         <CartIcon />
                         <label>{offers[0].price}</label>
                     </div>
-                    <div className="fav" onClick={() => setFavs(editFavGames(favs, { title, image }))}>
+                    <div className="fav" onClick={() => setFavs(editFavGames(favs, { title, image: masthead }))}>
                         <HeartIcon />
                     </div>
                 </div>

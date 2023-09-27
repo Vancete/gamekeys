@@ -1,0 +1,14 @@
+.wishlist {
+    @apply  bg-white text-black w-72 absolute top-0 right-0 z-10 shadow-lg shadow-gray-500;
+
+    animation: showList 0.5s;
+}
+
+@keyframes showList {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
