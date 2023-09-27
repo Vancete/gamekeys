@@ -29,6 +29,7 @@
         @apply absolute right-0;
         height: 110%;
         animation: fade-in 1s forwards;
+        clip-path: polygon(43% 0%, 100% 0%, 100% 100%, 0% 100%);
     }
 
     .front {

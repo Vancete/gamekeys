@@ -43,7 +43,7 @@ export const MainBanner = () => {
             </div>
             <img
                 className="back"
-                src="main-banner-back.png"
+                src="main-banner-back.jpg"
                 style={{
                     right: `${-mousePosition.x / 40}%`,
                     bottom: `${-mousePosition.y / 40}%`,
