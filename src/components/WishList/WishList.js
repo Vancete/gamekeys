@@ -2,10 +2,10 @@ import "./WishList.scss"
 
 import WishItem from "../WishItem/WishItem"
 
-const WishList = ({favs, setFavs}) => {
+const WishList = ({favs, setFavs, showWishList}) => {
 
   return (
-    <div className="wishlist"> 
+    <div className={`wishlist ${showWishList ? 'show' : ""}`}> 
         { favs.length < 1 
             ? <p>The list is empty</p>
             : <ul>{ favs.map( game => (

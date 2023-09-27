@@ -10,7 +10,7 @@ import { TitleBubble } from '../TitleBubble/TitleBubble'
 import { StarIcon } from '../Icons/star-icon'
 import { SparkIcon } from '../Icons/spark-icon'
 import { PiggyIcon } from '../Icons/piggy-icon'
-import WishList from '../WishList/Wishlist'
+import WishList from '../WishList/WishList'
 
 export const Header = ({favs, setFavs}) => {
 
@@ -43,7 +43,7 @@ export const Header = ({favs, setFavs}) => {
                 <TitleBubble icon={<StarIcon />} title="Most popular" />
                 <TitleBubble icon={<SparkIcon />} title="New releases" />
                 <TitleBubble icon={<PiggyIcon />} title="Free to play" />
-                {showWishList && <WishList favs={favs} setFavs={setFavs} />}
+                <WishList favs={favs} setFavs={setFavs} showWishList={showWishList} />
             </div>
         </header>
     )
