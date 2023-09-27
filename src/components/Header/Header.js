@@ -34,7 +34,7 @@ export const Header = ({favs, setFavs}) => {
                 </form>
                 <div className="header-actions">
                     <div className="action" onClick={() => setShowWishList(!showWishList)}>
-                        <HeartIcon className="wishlist-icon" />
+                        <HeartIcon className={`wishlist-icon ${showWishList ? 'open' : ""}`} />
                         <label>Wish list</label>
                     </div>
                 </div>
