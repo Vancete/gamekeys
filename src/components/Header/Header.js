@@ -12,7 +12,7 @@ import { SparkIcon } from '../Icons/spark-icon'
 import { PiggyIcon } from '../Icons/piggy-icon'
 import WishList from '../WishList/Wishlist'
 
-export const Header = ({favs}) => {
+export const Header = ({favs, setFavs}) => {
 
     const [showWishList, setShowWishList] = useState(false)
 
@@ -43,7 +43,7 @@ export const Header = ({favs}) => {
                 <TitleBubble icon={<StarIcon />} title="Most popular" />
                 <TitleBubble icon={<SparkIcon />} title="New releases" />
                 <TitleBubble icon={<PiggyIcon />} title="Free to play" />
-                {showWishList && <WishList favs={favs} />}
+                {showWishList && <WishList favs={favs} setFavs={setFavs} />}
             </div>
         </header>
     )

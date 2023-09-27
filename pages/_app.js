@@ -28,7 +28,7 @@ export default function MyApp({ Component, pageProps }) {
                     font-family: ${inter.style.fontFamily};
                 }
             `}</style>
-            <Header favs={favs} />
+            <Header favs={favs} setFavs={setFavs} />
             <Component favs={favs} setFavs={setFavs} {...pageProps} />
             <Footer />
         </>

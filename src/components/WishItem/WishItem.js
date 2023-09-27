@@ -3,7 +3,7 @@ import { DeleteRound } from '../Icons/delete-round'
 import './WishItem.scss'
 import { cleanFileName, editFavGames } from '@/src/utils/utils'
 
-const WishItem = ({ game }) => {
+const WishItem = ({ game, favs, setFavs }) => {
 
     const {title, image} = game
 
@@ -13,7 +13,7 @@ const WishItem = ({ game }) => {
             <img src={image} alt={title}  />
             <span>{title}</span>
         </Link>
-        <div className='delete'>
+        <div className='delete' onClick={() => setFavs(editFavGames(favs, game))}>
             <DeleteRound />
         </div>
     </li>
