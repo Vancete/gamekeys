@@ -50,6 +50,18 @@ export const MainBanner = () => {
                 }}
             ></img>
             <img
+                className="front shadow"
+                src="main-banner-front-cyb.png"
+                style={{
+                    right: `${mousePosition.x / 20}%`,
+                    top: `${-mousePosition.y / 20}%`,
+                    filter: 'blur(16px) brightness(0) opacity(0.5)',
+                    transform: `perspective(500px) translateX(8px) translateZ(-8px) rotateX(${
+                        mousePosition.y / 20
+                    }deg) rotateY(${-7.5 + mousePosition.x / 13.33}deg)`,
+                }}
+            ></img>
+            <img
                 className="front"
                 src="main-banner-front-cyb.png"
                 style={{
