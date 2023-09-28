@@ -4,6 +4,20 @@ import './MainBanner.scss'
 export const MainBanner = () => {
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
 
+    const bannerMovement = {
+        back: {
+            horizontalPercent: 5,
+            verticalPercent: 5,
+        },
+        front: {
+            horizontalPercent: 5,
+            verticalPercent: 5,
+            shadowHorizontalPercent: 5,
+            horizontalPerspectiveDegrees: 7.5,
+            verticalPerspectiveDegrees: 5,
+        },
+    }
+
     useEffect(() => {
         const handleMouseMove = (e) => {
             const windowWidth = window.innerWidth
@@ -45,20 +59,26 @@ export const MainBanner = () => {
                 className="back"
                 src="main-banner-back-cyb.jpg"
                 style={{
-                    right: `${-mousePosition.x / 20}%`,
-                    bottom: `${-mousePosition.y / 20}%`,
+                    right: `${-mousePosition.x * (bannerMovement.back.horizontalPercent / 100)}%`,
+                    bottom: `${-mousePosition.y * (bannerMovement.back.verticalPercent / 100)}%`,
                 }}
             ></img>
             <img
                 className="front shadow"
                 src="main-banner-front-cyb.png"
                 style={{
-                    right: `${mousePosition.x / 20}%`,
-                    top: `${-mousePosition.y / 20}%`,
+                    right: `${mousePosition.x * (bannerMovement.front.horizontalPercent / 100)}%`,
+                    top: `${-mousePosition.y * (bannerMovement.front.verticalPercent / 100)}%`,
                     filter: 'blur(16px) brightness(0) opacity(0.5)',
-                    transform: `perspective(500px) translateX(8px) translateZ(-8px) rotateX(${
-                        mousePosition.y / 20
-                    }deg) rotateY(${-7.5 + mousePosition.x / 13.33}deg)`,
+                    transform: `perspective(500px) translateX(${
+                        bannerMovement.front.shadowHorizontalPercent -
+                        mousePosition.x * (bannerMovement.front.shadowHorizontalPercent / 100)
+                    }%) translateZ(-8px) rotateX(${
+                        mousePosition.y * (bannerMovement.front.verticalPerspectiveDegrees / 100)
+                    }deg) rotateY(${
+                        -bannerMovement.front.horizontalPerspectiveDegrees +
+                        mousePosition.x * (bannerMovement.front.horizontalPerspectiveDegrees / 100)
+                    }deg)`,
                 }}
             ></img>
             <img
