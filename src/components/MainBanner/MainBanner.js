@@ -86,7 +86,7 @@ export const MainBanner = () => {
                 }}
             >
                 <source type="image/webp" srcset={`${bannerImages.front}.webp`} />
-                <img src={`${bannerImages.front}.jpg`} alt="test" />
+                <img src={`${bannerImages.front}.png`} alt="test" />
             </picture>
             <picture
                 className="front"
@@ -103,7 +103,7 @@ export const MainBanner = () => {
                 }}
             >
                 <source type="image/webp" srcset={`${bannerImages.front}.webp`} />
-                <img src={`${bannerImages.front}.jpg`} alt="test" />
+                <img src={`${bannerImages.front}.png`} alt="test" />
             </picture>
         </div>
     )

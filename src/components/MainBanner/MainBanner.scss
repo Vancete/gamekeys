@@ -37,6 +37,10 @@
         height: 110%;
         margin-right: 10%;
         animation: move-up 1s forwards;
+
+        img {
+            @apply h-full;
+        }
     }
 
     @keyframes fade-in {
