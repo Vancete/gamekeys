@@ -1,12 +1,23 @@
 .wishlist {
-    @apply  bg-white text-black w-72 absolute top-0 right-0 z-10 shadow-lg shadow-gray-500 opacity-0;
+    @apply bg-white text-black w-72 absolute top-0 right-0 z-10 shadow-lg shadow-gray-500 opacity-0;
 
     transform: translateX(100%);
     transition: all 0.5s;
-}
 
-.show {
-    @apply opacity-100;
+    &.show {
+        @apply opacity-100;
 
-    transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    .empty {
+        @apply w-full flex flex-col items-center p-8;
+
+        svg {
+            @apply pb-2;
+            path {
+                fill: #acacac;
+            }
+        }
+    }
 }

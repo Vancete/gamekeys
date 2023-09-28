@@ -1,7 +1,7 @@
 .main-banner {
     @apply relative flex justify-center items-center overflow-hidden;
     aspect-ratio: 3.33/1;
-    background: linear-gradient(#140012, #000000);
+    background: linear-gradient(#1f001c, #000000);
 
     .content {
         @apply absolute flex items-center h-full w-full;
