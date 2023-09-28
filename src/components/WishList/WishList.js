@@ -1,12 +1,16 @@
 import './WishList.scss'
 
 import WishItem from '../WishItem/WishItem'
+import { SadIcon } from '../Icons/sad-icon'
 
 const WishList = ({ favs, setFavs, showWishList }) => {
     return (
         <div className={`wishlist ${showWishList ? 'show' : ''}`}>
             {favs.length < 1 ? (
-                <p>The list is empty</p>
+                <div className='empty-list'>
+                    <SadIcon />
+                    <p>Your wish list is empty</p>
+                </div>
             ) : (
                 <ul>
                     {favs.map((game) => (

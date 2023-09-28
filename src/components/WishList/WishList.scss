@@ -3,10 +3,47 @@
 
     transform: translateX(100%);
     transition: all 0.5s;
+
+    .empty-list {
+        @apply flex flex-col justify-center items-center p-6 font-bold;
+        
+        svg {
+            @apply mb-3;
+    
+            path {
+                fill: gray;
+            }
+        }
+    }
+
 }
 
 .show {
     @apply opacity-100;
 
     transform: translateX(0);
+
+    .empty-list svg{
+
+        animation: nopFace 0.5s linear both;
+        animation-delay: 0.5s
+    }
+}
+
+@keyframes nopFace {
+    0% {
+        transform: translateX(-5%);
+    }
+    25% {
+        transform: translateX(5%);
+    }
+    50% {
+        transform: translateX(-5%);
+    }
+    75% {
+        transform: translateX(5%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
 }
