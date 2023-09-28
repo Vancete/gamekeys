@@ -43,7 +43,7 @@ export const MainBanner = () => {
             </div>
             <img
                 className="back"
-                src="main-banner-back.jpg"
+                src="main-banner-back-cyb.jpg"
                 style={{
                     right: `${-mousePosition.x / 20}%`,
                     bottom: `${-mousePosition.y / 20}%`,
@@ -51,12 +51,12 @@ export const MainBanner = () => {
             ></img>
             <img
                 className="front"
-                src="main-banner-front.png"
+                src="main-banner-front-cyb.png"
                 style={{
                     right: `${mousePosition.x / 20}%`,
                     top: `${-mousePosition.y / 20}%`,
                     transform: `perspective(500px) rotateX(${mousePosition.y / 20}deg) rotateY(${
-                        -10 + mousePosition.x / 10
+                        -5 + mousePosition.x / 20
                     }deg)`,
                 }}
             ></img>
