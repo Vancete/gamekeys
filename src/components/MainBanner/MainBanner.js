@@ -55,6 +55,9 @@ export const MainBanner = () => {
                 style={{
                     right: `${mousePosition.x / 20}%`,
                     top: `${-mousePosition.y / 20}%`,
+                    transform: `perspective(500px) rotateX(${mousePosition.y / 20}deg) rotateY(${
+                        -10 + mousePosition.x / 10
+                    }deg)`,
                 }}
             ></img>
         </div>
