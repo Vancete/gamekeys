@@ -4,7 +4,8 @@ header {
     background: #0f000e;
 
     .header-main {
-        @apply flex items-center px-16 py-6;
+        @apply flex items-center px-16;
+        height: 96px;
 
         .search {
             @apply ml-5 relative flex items-center;
@@ -23,7 +24,7 @@ header {
                 box-shadow: inset 0px 1px rgba(255, 255, 255, 0.05);
                 background-color: rgba(52, 52, 52, 0.75);
                 outline: 0px solid #ff459900;
-                min-width: 400px;
+                min-width: 450px;
                 transition: outline 0.1s;
 
                 &:focus {
@@ -50,7 +51,7 @@ header {
                         transition: fill 0.5s;
                     }
                 }
-                
+
                 .open {
                     path {
                         fill: #ff459a;

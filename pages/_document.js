@@ -4,7 +4,8 @@ export default function Document() {
     return (
         <Html lang="en">
             <Head>
-                <link rel="shortcut icon" href="favicon.png" />
+                <title>KEYSGOD | The best games at better prices</title>
+                <link rel="shortcut icon" href="/favicon.png" />
             </Head>
             <body>
                 <Main />

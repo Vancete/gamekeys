@@ -5,6 +5,7 @@ import { GameCard } from '@/src/components/GameCard/GameCard'
 import { GameOffer } from '@/src/components/GameOffer/GameOffer'
 import { StarIcon } from '@/src/components/Icons/star-icon'
 import { MainSection } from '@/src/components/MainSection/MainSection'
+import Head from 'next/head'
 
 export default function Page({ gameData, offers, favs, setFavs, ...props }) {
     const sortedOffers = offers.sort((a, b) => a.price - b.price)
@@ -36,6 +37,9 @@ export default function Page({ gameData, offers, favs, setFavs, ...props }) {
 
     return (
         <>
+            <Head>
+                <title>KEYSGOD | Buy {title} at the cheapest price, CD Key, Steam</title>
+            </Head>
             <GameBanner
                 title={title}
                 company={company}

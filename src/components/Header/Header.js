@@ -12,8 +12,7 @@ import { SparkIcon } from '../Icons/spark-icon'
 import { PiggyIcon } from '../Icons/piggy-icon'
 import WishList from '../WishList/WishList'
 
-export const Header = ({favs, setFavs}) => {
-
+export const Header = ({ favs, setFavs }) => {
     const [showWishList, setShowWishList] = useState(false)
 
     return (
@@ -30,11 +29,11 @@ export const Header = ({favs, setFavs}) => {
                 </Link>
                 <form className="search">
                     <SearchIcon className="search-icon" />
-                    <input type="text" placeholder="Buscar"></input>
+                    <input type="text" placeholder="Search"></input>
                 </form>
                 <div className="header-actions">
                     <div className="action" onClick={() => setShowWishList(!showWishList)}>
-                        <HeartIcon className={`wishlist-icon ${showWishList ? 'open' : ""}`} />
+                        <HeartIcon className={`wishlist-icon ${showWishList ? 'open' : ''}`} />
                         <label>Wish list</label>
                     </div>
                 </div>
