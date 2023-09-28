@@ -4,12 +4,17 @@ import './MainBanner.scss'
 export const MainBanner = () => {
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
 
+    const bannerImages = {
+        back: 'main-banner-back-cyb',
+        front: 'main-banner-front-cyb',
+    }
     const bannerMovement = {
         back: {
             horizontalPercent: 5,
             verticalPercent: 5,
         },
         front: {
+            perspective: 500,
             horizontalPercent: 5,
             verticalPercent: 5,
             shadowHorizontalPercent: 5,
@@ -57,20 +62,19 @@ export const MainBanner = () => {
             </div>
             <img
                 className="back"
-                src="main-banner-back-cyb.jpg"
+                src={`${bannerImages.back}.jpg`}
                 style={{
                     right: `${-mousePosition.x * (bannerMovement.back.horizontalPercent / 100)}%`,
                     bottom: `${-mousePosition.y * (bannerMovement.back.verticalPercent / 100)}%`,
                 }}
             ></img>
-            <img
+            <picture
                 className="front shadow"
-                src="main-banner-front-cyb.png"
                 style={{
                     right: `${mousePosition.x * (bannerMovement.front.horizontalPercent / 100)}%`,
                     top: `${-mousePosition.y * (bannerMovement.front.verticalPercent / 100)}%`,
-                    filter: 'blur(16px) brightness(0) opacity(0.5)',
-                    transform: `perspective(500px) translateX(${
+                    filter: 'blur(16px) brightness(0) opacity(0.35)',
+                    transform: `perspective(${bannerMovement.front.perspective}px) translateX(${
                         bannerMovement.front.shadowHorizontalPercent -
                         mousePosition.x * (bannerMovement.front.shadowHorizontalPercent / 100)
                     }%) translateZ(-8px) rotateX(${
@@ -80,18 +84,27 @@ export const MainBanner = () => {
                         mousePosition.x * (bannerMovement.front.horizontalPerspectiveDegrees / 100)
                     }deg)`,
                 }}
-            ></img>
-            <img
+            >
+                <source type="image/webp" srcset={`${bannerImages.front}.webp`} />
+                <img src={`${bannerImages.front}.jpg`} alt="test" />
+            </picture>
+            <picture
                 className="front"
-                src="main-banner-front-cyb.png"
+                src="main-banner-front-cyb.webp"
                 style={{
-                    right: `${mousePosition.x / 20}%`,
-                    top: `${-mousePosition.y / 20}%`,
-                    transform: `perspective(500px) rotateX(${mousePosition.y / 20}deg) rotateY(${
-                        -7.5 + mousePosition.x / 13.33
+                    right: `${mousePosition.x * (bannerMovement.front.horizontalPercent / 100)}%`,
+                    top: `${-mousePosition.y * (bannerMovement.front.verticalPercent / 100)}%`,
+                    transform: `perspective(${bannerMovement.front.perspective}px) rotateX(${
+                        mousePosition.y * (bannerMovement.front.verticalPerspectiveDegrees / 100)
+                    }deg) rotateY(${
+                        -bannerMovement.front.horizontalPerspectiveDegrees +
+                        mousePosition.x * (bannerMovement.front.horizontalPerspectiveDegrees / 100)
                     }deg)`,
                 }}
-            ></img>
+            >
+                <source type="image/webp" srcset={`${bannerImages.front}.webp`} />
+                <img src={`${bannerImages.front}.jpg`} alt="test" />
+            </picture>
         </div>
     )
 }
