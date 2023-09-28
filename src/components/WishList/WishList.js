@@ -6,7 +6,7 @@ const WishList = ({ favs, setFavs, showWishList }) => {
     return (
         <div className={`wishlist ${showWishList ? 'show' : ''}`}>
             {favs.length < 1 ? (
-                <div className="empty"></div>
+                <p>The list is empty</p>
             ) : (
                 <ul>
                     {favs.map((game) => (
