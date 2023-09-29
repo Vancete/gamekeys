@@ -8,6 +8,10 @@ header {
         @apply flex items-center px-16;
         height: 96px;
 
+        @media (max-width: 768px) {
+            @apply h-auto flex-col p-4;
+        }
+
         .search {
             @apply ml-5 relative flex items-center;
 
@@ -25,7 +29,8 @@ header {
                 box-shadow: inset 0px 1px rgba(255, 255, 255, 0.05);
                 background-color: rgba(52, 52, 52, 0.75);
                 outline: 0px solid #ff459900;
-                min-width: 450px;
+                width: 450px;
+                max-width: 90vw;
                 transition: outline 0.1s;
 
                 &:focus {

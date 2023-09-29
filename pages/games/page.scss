@@ -1,6 +1,10 @@
 .offers {
     @apply mb-12;
 
+    @media (max-width: 1400px) {
+        padding: 0 32px;
+    }
+
     h3 {
         @apply uppercase font-semibold text-4xl mb-4;
     }

@@ -9,6 +9,10 @@
     .game-info {
         @apply flex justify-center bg-black text-white;
 
+        @media (max-width: 1400px) {
+            padding: 0 32px;
+        }
+
         .content {
             @apply relative flex items-center w-full;
 
@@ -44,6 +48,12 @@
 
                 transition: all 0.1s;
 
+                svg {
+                    path {
+                        transition: all 0.1s;
+                    }
+                }
+
                 &:hover {
                     @apply text-white;
 
@@ -73,6 +83,12 @@
                 background-color: #ff459a;
                 transition: all 0.1s;
 
+                svg {
+                    path {
+                        transition: all 0.1s;
+                    }
+                }
+
                 &:hover {
                     @apply bg-white;
 
@@ -97,6 +113,10 @@
 
     .game-description {
         @apply flex justify-center bg-white text-black text-lg py-8 text-justify;
+
+        @media (max-width: 1400px) {
+            padding: 2rem 32px;
+        }
 
         p {
             max-width: calc(1400px - 120px - 32px);

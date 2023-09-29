@@ -1,6 +1,10 @@
 .main-section {
     @apply flex flex-col w-full mb-9;
 
+    @media (max-width: 1400px) {
+        padding: 0 32px;
+    }
+
     .title-bubble {
         @apply mb-5;
     }
@@ -8,8 +12,19 @@
     .content {
         @apply flex justify-between;
 
+        @media (max-width: 768px) {
+            @apply flex-wrap;
+        }
+
         .game-card {
             margin-right: 20px;
+
+            @media (max-width: 768px) {
+                flex: none;
+                width: 49%;
+                margin-bottom: 2%;
+                margin-right: 0;
+            }
 
             &:last-of-type {
                 @apply mr-0;
