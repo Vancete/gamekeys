@@ -25,12 +25,20 @@
 
         label {
             @apply font-semibold text-lg whitespace-nowrap;
+
+            @media (max-width: 768px) {
+                @apply text-sm;
+            }
         }
 
         .price {
             @apply absolute flex items-center right-3 px-2 py-1 pr-5 bg-white rounded-xl text-black font-semibold text-lg;
 
             box-shadow: 8px 0px 20px 20px black;
+
+            @media (max-width: 768px) {
+                @apply text-base;
+            }
 
             &::after {
                 @apply absolute right-2 text-black font-semibold text-base;

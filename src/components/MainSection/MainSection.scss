@@ -29,6 +29,12 @@
             &:last-of-type {
                 @apply mr-0;
             }
+
+            &:first-of-type {
+                @media (max-width: 768px) {
+                    width: 100%;
+                }
+            }
         }
     }
 }

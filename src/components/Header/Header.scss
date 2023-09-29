@@ -12,8 +12,18 @@ header {
             @apply h-auto flex-col p-4;
         }
 
+        .keysgod-logo {
+            @media (max-width: 768px) {
+                height: 48px;
+            }
+        }
+
         .search {
             @apply ml-5 relative flex items-center;
+
+            @media (max-width: 768px) {
+                margin: 16px 0;
+            }
 
             .search-icon {
                 @apply absolute left-4;
@@ -42,15 +52,27 @@ header {
         .header-actions {
             @apply flex ml-auto;
 
+            @media (max-width: 768px) {
+                @apply ml-0;
+            }
+
             .action {
                 @apply flex cursor-pointer;
 
                 label {
                     @apply cursor-pointer;
+
+                    @media (max-width: 768px) {
+                        @apply hidden;
+                    }
                 }
 
                 svg {
                     @apply mr-2;
+
+                    @media (max-width: 768px) {
+                        @apply mr-0;
+                    }
 
                     path {
                         fill: white;

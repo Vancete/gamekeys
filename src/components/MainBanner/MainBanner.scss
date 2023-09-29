@@ -48,7 +48,7 @@
         @apply absolute w-full h-full;
 
         @media (max-width: 768px) {
-            transform: translateX(150px);
+            transform: translateX(100px);
         }
 
         .back {

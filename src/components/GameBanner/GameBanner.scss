@@ -18,6 +18,10 @@
 
             max-width: 1400px;
 
+            @media (max-width: 768px) {
+                @apply flex-wrap;
+            }
+
             .cover {
                 @apply absolute bottom-8 bg-cover bg-center rounded-3xl;
 
@@ -25,6 +29,11 @@
                 aspect-ratio: 2/3;
                 box-shadow: 0 0 16px 0px #00000052;
                 background-color: #232323;
+
+                @media (max-width: 768px) {
+                    @apply rounded-xl;
+                    bottom: 120px;
+                }
             }
 
             .title {
@@ -32,14 +41,26 @@
 
                 margin-left: 20%;
 
+                @media (max-width: 768px) {
+                    @apply p-6;
+                }
+
                 h1 {
                     @apply text-5xl font-semibold;
+
+                    @media (max-width: 768px) {
+                        @apply text-xl;
+                    }
                 }
 
                 h2 {
                     @apply text-2xl;
 
                     margin-left: 2px;
+
+                    @media (max-width: 768px) {
+                        @apply text-sm;
+                    }
                 }
             }
 
@@ -47,6 +68,11 @@
                 @apply flex items-center p-4 rounded-lg h-max bg-white text-black text-3xl font-semibold ml-auto cursor-pointer;
 
                 transition: all 0.1s;
+
+                @media (max-width: 768px) {
+                    flex: 1;
+                    margin: 0 0 40px 0;
+                }
 
                 svg {
                     path {
@@ -82,6 +108,10 @@
 
                 background-color: #ff459a;
                 transition: all 0.1s;
+
+                @media (max-width: 768px) {
+                    margin-bottom: 40px;
+                }
 
                 svg {
                     path {

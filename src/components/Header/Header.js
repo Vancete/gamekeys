@@ -20,9 +20,9 @@ export const Header = ({ favs, setFavs }) => {
             <div className="header-main">
                 <Link href="/">
                     <Image
-                        className="gamekeys-logo"
+                        className="keysgod-logo"
                         src="/gamekeys-logo.svg"
-                        alt="gamekeys-logo"
+                        alt="KEYSGOD logo"
                         width={200}
                         height={42}
                     />

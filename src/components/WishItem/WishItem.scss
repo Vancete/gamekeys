@@ -1,4 +1,4 @@
-li {
+.wish-item {
     @apply p-4 flex justify-between items-center cursor-pointer;
 
     .game-data {
@@ -14,10 +14,9 @@ li {
     }
 
     .delete {
-
         &:hover {
             @apply bg-white;
-    
+
             svg {
                 path {
                     fill: #ff459a;
