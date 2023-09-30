@@ -9,11 +9,12 @@ header {
         height: 96px;
 
         @media (max-width: 768px) {
-            @apply h-auto flex-col p-4;
+            @apply h-auto flex-col items-start p-4;
         }
 
         .keysgod-logo {
             @media (max-width: 768px) {
+                @apply w-auto pl-2;
                 height: 48px;
             }
         }
@@ -22,7 +23,7 @@ header {
             @apply ml-5 relative flex items-center;
 
             @media (max-width: 768px) {
-                margin: 16px 0;
+                margin: 8px 0;
             }
 
             .search-icon {
@@ -53,7 +54,7 @@ header {
             @apply flex ml-auto;
 
             @media (max-width: 768px) {
-                @apply ml-0;
+                @apply absolute right-0 p-3 pr-6 ml-0;
             }
 
             .action {
@@ -92,5 +93,9 @@ header {
     .header-menu {
         @apply flex justify-center items-center bg-white w-full relative;
         min-height: 72px;
+
+        @media (max-width: 768px) {
+            @apply overflow-x-auto;
+        }
     }
 }

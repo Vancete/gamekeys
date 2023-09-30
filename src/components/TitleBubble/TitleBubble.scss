@@ -3,7 +3,7 @@
     color: #232323;
 
     @media (max-width: 768px) {
-        @apply text-sm p-3 pr-4;
+        @apply text-sm p-3 pr-4 whitespace-nowrap;
     }
 
     svg {

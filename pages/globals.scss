@@ -26,6 +26,10 @@ main {
     @apply w-full m-auto mt-12;
     max-width: 1400px;
 
+    @media (max-width: 768px) {
+        @apply mt-6;
+    }
+
     &.main-page {
         .main-section {
             &:first-of-type {
