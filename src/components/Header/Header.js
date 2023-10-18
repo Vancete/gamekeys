@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 import './Header.scss'
 
@@ -16,14 +16,23 @@ import { SearchList } from '../SearchList/SearchList'
 
 export const Header = ({ favs, setFavs }) => {
     const [showWishList, setShowWishList] = useState(false)
-    const [searchText, setSearchText] = useState("")
+    const [searchText, setSearchText] = useState('')
+    const [searchList, setSearchList] = useState([])
+
+    useEffect(() => {
+        fetch('/search-data.json')
+            .then((res) => res.json())
+            .then((data) => {
+                setSearchList(data)
+            })
+    }, [])
 
     const handleChange = (e) => {
         setSearchText(e.target.value)
     }
 
     const resetText = () => {
-        setSearchText("")
+        setSearchText('')
     }
 
     return (
@@ -41,12 +50,12 @@ export const Header = ({ favs, setFavs }) => {
                 <form className="search">
                     <SearchIcon className="search-icon" />
                     <input type="text" placeholder="Search" onChange={handleChange} value={searchText} />
-                    {searchText !== "" &&
+                    {searchText !== '' && (
                         <>
                             <RemoveIcon className="remove-icon" onClick={resetText} />
-                            <SearchList searchText={searchText} />
+                            <SearchList searchText={searchText} searchList={searchList} />
                         </>
-                    }
+                    )}
                 </form>
                 <div className="header-actions">
                     <div className="action" onClick={() => setShowWishList(!showWishList)}>

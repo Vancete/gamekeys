@@ -1,19 +1,31 @@
 .search-item {
     @apply p-4 flex cursor-pointer;
 
+    transition: all 0.1s;
+
     .game-data {
         @apply flex justify-normal items-center;
-    }
+   
+        img {
+            @apply w-14 h-10 rounded-lg;
+        }
+    
+        span {
+            @apply ml-3 font-bold;
+        }
+    
+        .price {
+            @apply absolute right-3 bg-black py-2 px-3 text-white rounded-xl;
 
-    img {
-        @apply w-14 h-10 rounded-lg;
-    }
-
-    span {
-        @apply ml-3 font-bold;
+            transition: all 0.1s;
+        }
     }
 
     &:hover {
         @apply bg-gray-200;
+
+        .price {
+            background-color: #ff459a;
+        }
     }
 }
