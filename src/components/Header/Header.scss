@@ -34,6 +34,14 @@ header {
                 }
             }
 
+            .remove-icon {
+                @apply absolute right-4 cursor-pointer;
+
+                path {
+                    fill: white;
+                }
+            }
+
             input {
                 @apply pl-12 py-3 rounded-full;
 

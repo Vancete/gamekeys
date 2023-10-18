@@ -10,6 +10,7 @@ import { TitleBubble } from '../TitleBubble/TitleBubble'
 import { StarIcon } from '../Icons/star-icon'
 import { SparkIcon } from '../Icons/spark-icon'
 import { PiggyIcon } from '../Icons/piggy-icon'
+import { RemoveIcon } from '../Icons/remove-icon'
 import WishList from '../WishList/WishList'
 import { SearchList } from '../SearchList/SearchList'
 
@@ -19,6 +20,10 @@ export const Header = ({ favs, setFavs }) => {
 
     const handleChange = (e) => {
         setSearchText(e.target.value)
+    }
+
+    const resetText = () => {
+        setSearchText("")
     }
 
     return (
@@ -36,7 +41,12 @@ export const Header = ({ favs, setFavs }) => {
                 <form className="search">
                     <SearchIcon className="search-icon" />
                     <input type="text" placeholder="Search" onChange={handleChange} value={searchText} />
-                    {searchText !== "" && <SearchList searchText={searchText} />}
+                    {searchText !== "" &&
+                        <>
+                            <RemoveIcon className="remove-icon" onClick={resetText} />
+                            <SearchList searchText={searchText} />
+                        </>
+                    }
                 </form>
                 <div className="header-actions">
                     <div className="action" onClick={() => setShowWishList(!showWishList)}>
