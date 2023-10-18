@@ -105,7 +105,7 @@ export const MainBanner = () => {
                         }deg)`,
                     }}
                 >
-                    <source type="image/webp" srcset={`${bannerImages.front}.webp`} />
+                    <source type="image/webp" srcSet={`${bannerImages.front}.webp`} />
                     <img src={`${bannerImages.front}.png`} alt="test" />
                 </picture>
             </div>

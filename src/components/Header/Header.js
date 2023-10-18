@@ -11,9 +11,15 @@ import { StarIcon } from '../Icons/star-icon'
 import { SparkIcon } from '../Icons/spark-icon'
 import { PiggyIcon } from '../Icons/piggy-icon'
 import WishList from '../WishList/WishList'
+import { SearchList } from '../SearchList/SearchList'
 
 export const Header = ({ favs, setFavs }) => {
     const [showWishList, setShowWishList] = useState(false)
+    const [searchText, setSearchText] = useState("")
+
+    const handleChange = (e) => {
+        setSearchText(e.target.value)
+    }
 
     return (
         <header>
@@ -29,7 +35,8 @@ export const Header = ({ favs, setFavs }) => {
                 </Link>
                 <form className="search">
                     <SearchIcon className="search-icon" />
-                    <input type="text" placeholder="Search"></input>
+                    <input type="text" placeholder="Search" onChange={handleChange} value={searchText} />
+                    {searchText !== "" && <SearchList searchText={searchText} />}
                 </form>
                 <div className="header-actions">
                     <div className="action" onClick={() => setShowWishList(!showWishList)}>

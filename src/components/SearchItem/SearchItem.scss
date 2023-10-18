@@ -1,0 +1,19 @@
+.search-item {
+    @apply p-4 flex cursor-pointer;
+
+    .game-data {
+        @apply flex justify-normal items-center;
+    }
+
+    img {
+        @apply w-14 h-10 rounded-lg;
+    }
+
+    span {
+        @apply ml-3 font-bold;
+    }
+
+    &:hover {
+        @apply bg-gray-200;
+    }
+}

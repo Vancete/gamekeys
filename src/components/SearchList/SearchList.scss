@@ -1,0 +1,9 @@
+.search-list {
+    @apply bg-white absolute top-14 shadow-lg shadow-gray-500 z-10 text-black;
+
+    width: 450px;
+
+    .empty-list {
+        @apply flex flex-col justify-center items-center p-6 font-bold;
+    }
+}
